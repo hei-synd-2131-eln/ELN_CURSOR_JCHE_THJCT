@@ -467,23 +467,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "C:\\eda\\eln_cursor\\2021-eln-cursor-cursor_jche\\Prefs\\..\\Cursor\\hdl"
+value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\2021-eln-cursor-cursor_jche\\Prefs\\..\\Cursor\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\eda\\eln_cursor\\2021-eln-cursor-cursor_jche\\Prefs\\..\\Cursor\\hds"
+value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\2021-eln-cursor-cursor_jche\\Prefs\\..\\Cursor\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\eda\\eln_cursor\\2021-eln-cursor-cursor_jche\\Prefs\\..\\Cursor\\hds\\@vitesse_@c@n@t\\symbol.sb.info"
+value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\2021-eln-cursor-cursor_jche\\Prefs\\..\\Cursor\\hds\\@vitesse_@c@n@t\\symbol.sb.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\eda\\eln_cursor\\2021-eln-cursor-cursor_jche\\Prefs\\..\\Cursor\\hds\\@vitesse_@c@n@t\\symbol.sb.user"
+value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\2021-eln-cursor-cursor_jche\\Prefs\\..\\Cursor\\hds\\@vitesse_@c@n@t\\symbol.sb.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\eda\\eln_cursor\\2021-eln-cursor-cursor_jche\\Prefs\\..\\Cursor\\hds"
+value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\2021-eln-cursor-cursor_jche\\Prefs\\..\\Cursor\\hds"
 )
 (vvPair
 variable "appl"
@@ -503,27 +503,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\eda\\eln_cursor\\2021-eln-cursor-cursor_jche\\Prefs\\..\\Cursor\\hds\\@vitesse_@c@n@t"
+value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\2021-eln-cursor-cursor_jche\\Prefs\\..\\Cursor\\hds\\@vitesse_@c@n@t"
 )
 (vvPair
 variable "d_logical"
-value "C:\\eda\\eln_cursor\\2021-eln-cursor-cursor_jche\\Prefs\\..\\Cursor\\hds\\Vitesse_CNT"
+value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\2021-eln-cursor-cursor_jche\\Prefs\\..\\Cursor\\hds\\Vitesse_CNT"
 )
 (vvPair
 variable "date"
-value "13.12.2021"
+value "14.12.2021"
 )
 (vvPair
 variable "day"
-value "lun."
+value "mar."
 )
 (vvPair
 variable "day_long"
-value "lundi"
+value "mardi"
 )
 (vvPair
 variable "dd"
-value "13"
+value "14"
 )
 (vvPair
 variable "entity_name"
@@ -547,11 +547,11 @@ value "symbol"
 )
 (vvPair
 variable "graphical_source_author"
-value "Julie"
+value "theo"
 )
 (vvPair
 variable "graphical_source_date"
-value "13.12.2021"
+value "14.12.2021"
 )
 (vvPair
 variable "graphical_source_group"
@@ -559,11 +559,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "LAPTOP-J400VU4F"
+value "LAPTOP-I9J0I4RD"
 )
 (vvPair
 variable "graphical_source_time"
-value "16:16:02"
+value "15:48:34"
 )
 (vvPair
 variable "group"
@@ -571,7 +571,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "LAPTOP-J400VU4F"
+value "LAPTOP-I9J0I4RD"
 )
 (vvPair
 variable "language"
@@ -603,11 +603,11 @@ value "décembre"
 )
 (vvPair
 variable "p"
-value "C:\\eda\\eln_cursor\\2021-eln-cursor-cursor_jche\\Prefs\\..\\Cursor\\hds\\@vitesse_@c@n@t\\symbol.sb"
+value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\2021-eln-cursor-cursor_jche\\Prefs\\..\\Cursor\\hds\\@vitesse_@c@n@t\\symbol.sb"
 )
 (vvPair
 variable "p_logical"
-value "C:\\eda\\eln_cursor\\2021-eln-cursor-cursor_jche\\Prefs\\..\\Cursor\\hds\\Vitesse_CNT\\symbol.sb"
+value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\2021-eln-cursor-cursor_jche\\Prefs\\..\\Cursor\\hds\\Vitesse_CNT\\symbol.sb"
 )
 (vvPair
 variable "package_name"
@@ -635,7 +635,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "16:16:02"
+value "15:48:34"
 )
 (vvPair
 variable "unit"
@@ -643,7 +643,7 @@ value "Vitesse_CNT"
 )
 (vvPair
 variable "user"
-value "Julie"
+value "theo"
 )
 (vvPair
 variable "version"
@@ -1696,7 +1696,7 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 1169,0
+lastUid 1192,0
 okToSyncOnLoad 1
 OkToSyncGenericsOnLoad 1
 activeModelName "Symbol:CDM"

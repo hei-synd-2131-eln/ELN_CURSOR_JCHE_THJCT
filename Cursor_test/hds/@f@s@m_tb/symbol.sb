@@ -1,7 +1,7 @@
 DocumentHdrVersion "1.1"
 Header (DocumentHdr
 version 2
-dialect 11
+dialect 2
 dmPackageRefs [
 ]
 )
@@ -371,19 +371,19 @@ value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.El
 )
 (vvPair
 variable "date"
-value "10.12.2021"
+value "14.12.2021"
 )
 (vvPair
 variable "day"
-value "ven."
+value "mar."
 )
 (vvPair
 variable "day_long"
-value "vendredi"
+value "mardi"
 )
 (vvPair
 variable "dd"
-value "10"
+value "14"
 )
 (vvPair
 variable "entity_name"
@@ -411,7 +411,7 @@ value "theo"
 )
 (vvPair
 variable "graphical_source_date"
-value "10.12.2021"
+value "14.12.2021"
 )
 (vvPair
 variable "graphical_source_group"
@@ -423,7 +423,7 @@ value "LAPTOP-I9J0I4RD"
 )
 (vvPair
 variable "graphical_source_time"
-value "08:51:43"
+value "13:49:05"
 )
 (vvPair
 variable "group"
@@ -495,7 +495,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "08:51:43"
+value "13:49:05"
 )
 (vvPair
 variable "unit"
@@ -523,7 +523,7 @@ value "21"
 )
 ]
 )
-LanguageMgr "Vhdl2008LangMgr"
+LanguageMgr "Vhdl93LangMgr"
 uid 51,0
 optionalChildren [
 *51 (SymbolBody
@@ -1123,7 +1123,7 @@ font "Courier New,8,0"
 )
 )
 thePort (LogicalPort
-lang 11
+lang 2
 decl (Decl
 n "In0"
 t "unsigned"
@@ -1161,7 +1161,7 @@ font "Courier New,8,0"
 )
 )
 thePort (LogicalPort
-lang 11
+lang 2
 m 3
 decl (Decl
 n "Buffer0"
@@ -1229,7 +1229,7 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 130,0
+lastUid 107,0
 okToSyncOnLoad 1
 OkToSyncGenericsOnLoad 1
 activeModelName "Symbol:CDM"

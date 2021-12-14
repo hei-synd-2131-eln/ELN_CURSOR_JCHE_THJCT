@@ -77,7 +77,7 @@ lang 11
 decl (Decl
 n "decod_dir"
 t "std_ulogic"
-o 22
+o 3
 suid 18,0
 )
 )
@@ -89,7 +89,7 @@ lang 11
 decl (Decl
 n "encoderA_Sync"
 t "std_uLogic"
-o 40
+o 4
 suid 19,0
 )
 )
@@ -103,7 +103,7 @@ decl (Decl
 n "Pos_c"
 t "unsigned"
 b "(15 DOWNTO 0)"
-o 23
+o 6
 suid 20,0
 )
 )
@@ -114,7 +114,7 @@ port (LogicalPort
 decl (Decl
 n "reset"
 t "std_ulogic"
-o 8
+o 5
 suid 21,0
 )
 )
@@ -126,7 +126,7 @@ lang 11
 decl (Decl
 n "Reset_CNT"
 t "std_ulogic"
-o 41
+o 1
 suid 22,0
 )
 )
@@ -447,23 +447,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "C:\\Users\\theojct\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\2021-eln-cursor-cursor_jche\\Prefs\\..\\Cursor\\hdl"
+value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\2021-eln-cursor-cursor_jche\\Prefs\\..\\Cursor\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\Users\\theojct\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\2021-eln-cursor-cursor_jche\\Prefs\\..\\Cursor\\hds"
+value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\2021-eln-cursor-cursor_jche\\Prefs\\..\\Cursor\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\Users\\theojct\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\2021-eln-cursor-cursor_jche\\Prefs\\..\\Cursor\\hds\\@c@n@t_@position\\interface.info"
+value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\2021-eln-cursor-cursor_jche\\Prefs\\..\\Cursor\\hds\\@c@n@t_@position\\interface.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\Users\\theojct\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\2021-eln-cursor-cursor_jche\\Prefs\\..\\Cursor\\hds\\@c@n@t_@position\\interface.user"
+value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\2021-eln-cursor-cursor_jche\\Prefs\\..\\Cursor\\hds\\@c@n@t_@position\\interface.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\Users\\theojct\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\2021-eln-cursor-cursor_jche\\Prefs\\..\\Cursor\\hds"
+value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\2021-eln-cursor-cursor_jche\\Prefs\\..\\Cursor\\hds"
 )
 (vvPair
 variable "appl"
@@ -483,15 +483,15 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\Users\\theojct\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\2021-eln-cursor-cursor_jche\\Prefs\\..\\Cursor\\hds\\@c@n@t_@position"
+value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\2021-eln-cursor-cursor_jche\\Prefs\\..\\Cursor\\hds\\@c@n@t_@position"
 )
 (vvPair
 variable "d_logical"
-value "C:\\Users\\theojct\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\2021-eln-cursor-cursor_jche\\Prefs\\..\\Cursor\\hds\\CNT_Position"
+value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\2021-eln-cursor-cursor_jche\\Prefs\\..\\Cursor\\hds\\CNT_Position"
 )
 (vvPair
 variable "date"
-value "30.11.2021"
+value "14.12.2021"
 )
 (vvPair
 variable "day"
@@ -503,7 +503,7 @@ value "mardi"
 )
 (vvPair
 variable "dd"
-value "30"
+value "14"
 )
 (vvPair
 variable "entity_name"
@@ -527,11 +527,11 @@ value "interface"
 )
 (vvPair
 variable "graphical_source_author"
-value "Théo"
+value "theo"
 )
 (vvPair
 variable "graphical_source_date"
-value "30.11.2021"
+value "14.12.2021"
 )
 (vvPair
 variable "graphical_source_group"
@@ -539,11 +539,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "LAPTOP-CFT55TIS"
+value "LAPTOP-I9J0I4RD"
 )
 (vvPair
 variable "graphical_source_time"
-value "15:18:54"
+value "13:26:55"
 )
 (vvPair
 variable "group"
@@ -551,7 +551,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "LAPTOP-CFT55TIS"
+value "LAPTOP-I9J0I4RD"
 )
 (vvPair
 variable "language"
@@ -567,7 +567,7 @@ value "$SCRATCH_DIR/Cursor/work"
 )
 (vvPair
 variable "mm"
-value "11"
+value "12"
 )
 (vvPair
 variable "module_name"
@@ -575,19 +575,19 @@ value "CNT_Position"
 )
 (vvPair
 variable "month"
-value "nov."
+value "déc."
 )
 (vvPair
 variable "month_long"
-value "novembre"
+value "décembre"
 )
 (vvPair
 variable "p"
-value "C:\\Users\\theojct\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\2021-eln-cursor-cursor_jche\\Prefs\\..\\Cursor\\hds\\@c@n@t_@position\\interface"
+value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\2021-eln-cursor-cursor_jche\\Prefs\\..\\Cursor\\hds\\@c@n@t_@position\\interface"
 )
 (vvPair
 variable "p_logical"
-value "C:\\Users\\theojct\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\2021-eln-cursor-cursor_jche\\Prefs\\..\\Cursor\\hds\\CNT_Position\\interface"
+value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\2021-eln-cursor-cursor_jche\\Prefs\\..\\Cursor\\hds\\CNT_Position\\interface"
 )
 (vvPair
 variable "package_name"
@@ -615,7 +615,7 @@ value "interface"
 )
 (vvPair
 variable "time"
-value "15:18:54"
+value "13:26:55"
 )
 (vvPair
 variable "unit"
@@ -623,7 +623,7 @@ value "CNT_Position"
 )
 (vvPair
 variable "user"
-value "Théo"
+value "theo"
 )
 (vvPair
 variable "version"
@@ -682,8 +682,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,3200,63500,4000"
-st "clock         : IN     std_ulogic  ;
-"
+st "clock         : IN     std_ulogic  ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -727,15 +726,14 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,4000,63500,4800"
-st "decod_dir     : IN     std_ulogic  ;
-"
+st "decod_dir     : IN     std_ulogic  ;"
 )
 thePort (LogicalPort
 lang 11
 decl (Decl
 n "decod_dir"
 t "std_ulogic"
-o 22
+o 3
 suid 18,0
 )
 )
@@ -773,15 +771,14 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,4800,63500,5600"
-st "encoderA_Sync : IN     std_uLogic  ;
-"
+st "encoderA_Sync : IN     std_uLogic  ;"
 )
 thePort (LogicalPort
 lang 11
 decl (Decl
 n "encoderA_Sync"
 t "std_uLogic"
-o 40
+o 4
 suid 19,0
 )
 )
@@ -820,8 +817,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,6400,68500,7200"
-st "Pos_c         : OUT    unsigned (15 DOWNTO 0)
-"
+st "Pos_c         : OUT    unsigned (15 DOWNTO 0)"
 )
 thePort (LogicalPort
 lang 11
@@ -830,7 +826,7 @@ decl (Decl
 n "Pos_c"
 t "unsigned"
 b "(15 DOWNTO 0)"
-o 23
+o 6
 suid 20,0
 )
 )
@@ -868,14 +864,13 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,5600,63500,6400"
-st "reset         : IN     std_ulogic  ;
-"
+st "reset         : IN     std_ulogic  ;"
 )
 thePort (LogicalPort
 decl (Decl
 n "reset"
 t "std_ulogic"
-o 8
+o 5
 suid 21,0
 )
 )
@@ -913,15 +908,14 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,2400,63500,3200"
-st "Reset_CNT     : IN     std_ulogic  ;
-"
+st "Reset_CNT     : IN     std_ulogic  ;"
 )
 thePort (LogicalPort
 lang 11
 decl (Decl
 n "Reset_CNT"
 t "std_ulogic"
-o 41
+o 1
 suid 22,0
 )
 )
@@ -1011,7 +1005,7 @@ fg "0,0,32768"
 bg "0,0,32768"
 font "Arial,8,0"
 )
-xt "36200,48000,45500,49000"
+xt "36200,48000,45200,49000"
 st "
 by %user on %dd %month %year
 "
@@ -1633,6 +1627,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 376,0
+lastUid 514,0
 activeModelName "Symbol:CDM"
 )

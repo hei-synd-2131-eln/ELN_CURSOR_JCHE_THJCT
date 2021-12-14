@@ -16,15 +16,6 @@ itemName "ALL"
 ]
 instances [
 (Instance
-name "U_0"
-duLibraryName "Cursor"
-duName "PWM_Generator"
-elements [
-]
-mwi 0
-uid 25,0
-)
-(Instance
 name "U_1"
 duLibraryName "Cursor_test"
 duName "PWM_Generator_tester"
@@ -32,6 +23,15 @@ elements [
 ]
 mwi 0
 uid 382,0
+)
+(Instance
+name "U_0"
+duLibraryName "Cursor"
+duName "PWM_Generator"
+elements [
+]
+mwi 0
+uid 516,0
 )
 ]
 libraryRefs [
@@ -46,23 +46,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "C:\\eda\\eln_cursor\\2021-eln-cursor-cursor_jche\\Prefs\\..\\Cursor_test\\hdl"
+value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\2021-eln-cursor-cursor_jche\\Prefs\\..\\Cursor_test\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\eda\\eln_cursor\\2021-eln-cursor-cursor_jche\\Prefs\\..\\Cursor_test\\hds"
+value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\2021-eln-cursor-cursor_jche\\Prefs\\..\\Cursor_test\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\eda\\eln_cursor\\2021-eln-cursor-cursor_jche\\Prefs\\..\\Cursor_test\\hds\\@p@w@m_@generator_tb\\struct.bd.info"
+value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\2021-eln-cursor-cursor_jche\\Prefs\\..\\Cursor_test\\hds\\@p@w@m_@generator_tb\\struct.bd.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\eda\\eln_cursor\\2021-eln-cursor-cursor_jche\\Prefs\\..\\Cursor_test\\hds\\@p@w@m_@generator_tb\\struct.bd.user"
+value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\2021-eln-cursor-cursor_jche\\Prefs\\..\\Cursor_test\\hds\\@p@w@m_@generator_tb\\struct.bd.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\eda\\eln_cursor\\2021-eln-cursor-cursor_jche\\Prefs\\..\\Cursor_test\\hds"
+value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\2021-eln-cursor-cursor_jche\\Prefs\\..\\Cursor_test\\hds"
 )
 (vvPair
 variable "appl"
@@ -82,15 +82,15 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\eda\\eln_cursor\\2021-eln-cursor-cursor_jche\\Prefs\\..\\Cursor_test\\hds\\@p@w@m_@generator_tb"
+value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\2021-eln-cursor-cursor_jche\\Prefs\\..\\Cursor_test\\hds\\@p@w@m_@generator_tb"
 )
 (vvPair
 variable "d_logical"
-value "C:\\eda\\eln_cursor\\2021-eln-cursor-cursor_jche\\Prefs\\..\\Cursor_test\\hds\\PWM_Generator_tb"
+value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\2021-eln-cursor-cursor_jche\\Prefs\\..\\Cursor_test\\hds\\PWM_Generator_tb"
 )
 (vvPair
 variable "date"
-value "07.12.2021"
+value "14.12.2021"
 )
 (vvPair
 variable "day"
@@ -102,7 +102,7 @@ value "mardi"
 )
 (vvPair
 variable "dd"
-value "07"
+value "14"
 )
 (vvPair
 variable "entity_name"
@@ -126,11 +126,11 @@ value "struct"
 )
 (vvPair
 variable "graphical_source_author"
-value "Julie"
+value "theo"
 )
 (vvPair
 variable "graphical_source_date"
-value "07.12.2021"
+value "14.12.2021"
 )
 (vvPair
 variable "graphical_source_group"
@@ -138,11 +138,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "LAPTOP-J400VU4F"
+value "LAPTOP-I9J0I4RD"
 )
 (vvPair
 variable "graphical_source_time"
-value "08:53:22"
+value "13:33:07"
 )
 (vvPair
 variable "group"
@@ -150,7 +150,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "LAPTOP-J400VU4F"
+value "LAPTOP-I9J0I4RD"
 )
 (vvPair
 variable "language"
@@ -182,11 +182,11 @@ value "décembre"
 )
 (vvPair
 variable "p"
-value "C:\\eda\\eln_cursor\\2021-eln-cursor-cursor_jche\\Prefs\\..\\Cursor_test\\hds\\@p@w@m_@generator_tb\\struct.bd"
+value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\2021-eln-cursor-cursor_jche\\Prefs\\..\\Cursor_test\\hds\\@p@w@m_@generator_tb\\struct.bd"
 )
 (vvPair
 variable "p_logical"
-value "C:\\eda\\eln_cursor\\2021-eln-cursor-cursor_jche\\Prefs\\..\\Cursor_test\\hds\\PWM_Generator_tb\\struct.bd"
+value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\2021-eln-cursor-cursor_jche\\Prefs\\..\\Cursor_test\\hds\\PWM_Generator_tb\\struct.bd"
 )
 (vvPair
 variable "package_name"
@@ -214,7 +214,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "08:53:22"
+value "13:33:07"
 )
 (vvPair
 variable "unit"
@@ -222,7 +222,7 @@ value "PWM_Generator_tb"
 )
 (vvPair
 variable "user"
-value "Julie"
+value "theo"
 )
 (vvPair
 variable "version"
@@ -245,242 +245,7 @@ value "21"
 LanguageMgr "Vhdl2008LangMgr"
 uid 160,0
 optionalChildren [
-*1 (SaComponent
-uid 25,0
-optionalChildren [
-*2 (CptPort
-uid 9,0
-ps "OnEdgeStrategy"
-shape (Triangle
-uid 10,0
-va (VaSet
-vasetType 1
-fg "0,65535,0"
-)
-xt "17625,24000,18375,24750"
-)
-tg (CPTG
-uid 11,0
-ps "CptPortTextPlaceStrategy"
-stg "VerticalLayoutStrategy"
-f (Text
-uid 12,0
-ro 270
-va (VaSet
-font "Verdana,12,0"
-)
-xt "17300,19200,18700,23000"
-st "clock"
-blo "18500,23000"
-)
-)
-thePort (LogicalPort
-decl (Decl
-n "clock"
-t "std_ulogic"
-o 1
-suid 13,0
-)
-)
-)
-*3 (CptPort
-uid 13,0
-ps "OnEdgeStrategy"
-shape (Triangle
-uid 14,0
-ro 90
-va (VaSet
-vasetType 1
-fg "0,65535,0"
-)
-xt "14250,19625,15000,20375"
-)
-tg (CPTG
-uid 15,0
-ps "CptPortTextPlaceStrategy"
-stg "VerticalLayoutStrategy"
-f (Text
-uid 16,0
-va (VaSet
-font "Verdana,12,0"
-)
-xt "16000,19300,28500,20700"
-st "consigne_vitesse"
-blo "16000,20500"
-)
-)
-thePort (LogicalPort
-lang 11
-decl (Decl
-n "consigne_vitesse"
-t "unsigned"
-b "(9 DOWNTO 0)"
-o 2
-suid 14,0
-)
-)
-)
-*4 (CptPort
-uid 17,0
-ps "OnEdgeStrategy"
-shape (Triangle
-uid 18,0
-ro 90
-va (VaSet
-vasetType 1
-fg "0,65535,0"
-)
-xt "30000,21625,30750,22375"
-)
-tg (CPTG
-uid 19,0
-ps "CptPortTextPlaceStrategy"
-stg "RightVerticalLayoutStrategy"
-f (Text
-uid 20,0
-va (VaSet
-font "Verdana,12,0"
-)
-xt "22600,21300,29000,22700"
-st "pwm_sig"
-ju 2
-blo "29000,22500"
-)
-)
-thePort (LogicalPort
-lang 11
-m 1
-decl (Decl
-n "pwm_sig"
-t "std_ulogic"
-o 4
-suid 15,0
-)
-)
-)
-*5 (CptPort
-uid 21,0
-ps "OnEdgeStrategy"
-shape (Triangle
-uid 22,0
-va (VaSet
-vasetType 1
-fg "0,65535,0"
-)
-xt "20625,24000,21375,24750"
-)
-tg (CPTG
-uid 23,0
-ps "CptPortTextPlaceStrategy"
-stg "VerticalLayoutStrategy"
-f (Text
-uid 24,0
-ro 270
-va (VaSet
-font "Verdana,12,0"
-)
-xt "20300,18900,21700,23000"
-st "reset"
-blo "21500,23000"
-)
-)
-thePort (LogicalPort
-lang 11
-decl (Decl
-n "reset"
-t "std_ulogic"
-o 3
-suid 16,0
-)
-)
-)
-]
-shape (Rectangle
-uid 26,0
-va (VaSet
-vasetType 1
-fg "0,65535,0"
-lineColor "0,32896,0"
-lineWidth 2
-)
-xt "15000,9000,30000,24000"
-)
-oxt "15000,6000,30000,21000"
-ttg (MlTextGroup
-uid 27,0
-ps "CenterOffsetStrategy"
-stg "VerticalLayoutStrategy"
-textVec [
-*6 (Text
-uid 28,0
-va (VaSet
-font "Verdana,9,1"
-)
-xt "17800,12300,21500,13500"
-st "Cursor"
-blo "17800,13300"
-tm "BdLibraryNameMgr"
-)
-*7 (Text
-uid 29,0
-va (VaSet
-font "Verdana,9,1"
-)
-xt "17800,13500,27200,14700"
-st "PWM_Generator"
-blo "17800,14500"
-tm "CptNameMgr"
-)
-*8 (Text
-uid 30,0
-va (VaSet
-font "Verdana,9,1"
-)
-xt "17800,14700,20300,15900"
-st "U_0"
-blo "17800,15700"
-tm "InstanceNameMgr"
-)
-]
-)
-ga (GenericAssociation
-uid 31,0
-ps "EdgeToEdgeStrategy"
-matrix (Matrix
-uid 32,0
-text (MLText
-uid 33,0
-va (VaSet
-font "Courier New,8,0"
-)
-xt "-7000,12500,-7000,12500"
-)
-header ""
-)
-elements [
-]
-)
-viewicon (ZoomableIcon
-uid 34,0
-sl 0
-va (VaSet
-vasetType 1
-fg "49152,49152,49152"
-)
-xt "15250,22250,16750,23750"
-iconName "BlockDiagram.png"
-iconMaskName "BlockDiagram.msk"
-ftype 1
-)
-viewiconposition 0
-portVis (PortSigDisplay
-sTC 0
-sF 0
-)
-archType 1
-archFileType "UNKNOWN"
-)
-*9 (Net
+*1 (Net
 uid 35,0
 lang 11
 decl (Decl
@@ -498,7 +263,7 @@ xt "22000,5200,41500,6000"
 st "SIGNAL pwm_sig          : std_ulogic"
 )
 )
-*10 (Net
+*2 (Net
 uid 43,0
 lang 11
 decl (Decl
@@ -517,7 +282,7 @@ xt "22000,4400,47000,5200"
 st "SIGNAL consigne_vitesse : unsigned(9 DOWNTO 0)"
 )
 )
-*11 (Net
+*3 (Net
 uid 51,0
 decl (Decl
 n "clock"
@@ -534,7 +299,7 @@ xt "22000,3600,41500,4400"
 st "SIGNAL clock            : std_ulogic"
 )
 )
-*12 (Net
+*4 (Net
 uid 59,0
 lang 11
 decl (Decl
@@ -552,10 +317,10 @@ xt "22000,6000,41500,6800"
 st "SIGNAL reset            : std_ulogic"
 )
 )
-*13 (Grouping
+*5 (Grouping
 uid 109,0
 optionalChildren [
-*14 (CommentText
+*6 (CommentText
 uid 111,0
 shape (Rectangle
 uid 112,0
@@ -574,7 +339,7 @@ fg "0,0,32768"
 bg "0,0,32768"
 font "Arial,8,0"
 )
-xt "36200,48000,45400,49000"
+xt "36200,48000,45200,49000"
 st "
 by %user on %dd %month %year
 "
@@ -587,7 +352,7 @@ position 1
 ignorePrefs 1
 titleBlock 1
 )
-*15 (CommentText
+*7 (CommentText
 uid 114,0
 shape (Rectangle
 uid 115,0
@@ -619,7 +384,7 @@ position 1
 ignorePrefs 1
 titleBlock 1
 )
-*16 (CommentText
+*8 (CommentText
 uid 117,0
 shape (Rectangle
 uid 118,0
@@ -651,7 +416,7 @@ position 1
 ignorePrefs 1
 titleBlock 1
 )
-*17 (CommentText
+*9 (CommentText
 uid 120,0
 shape (Rectangle
 uid 121,0
@@ -683,7 +448,7 @@ position 1
 ignorePrefs 1
 titleBlock 1
 )
-*18 (CommentText
+*10 (CommentText
 uid 123,0
 shape (Rectangle
 uid 124,0
@@ -714,7 +479,7 @@ visibleWidth 20000
 ignorePrefs 1
 titleBlock 1
 )
-*19 (CommentText
+*11 (CommentText
 uid 126,0
 shape (Rectangle
 uid 127,0
@@ -746,7 +511,7 @@ position 1
 ignorePrefs 1
 titleBlock 1
 )
-*20 (CommentText
+*12 (CommentText
 uid 129,0
 shape (Rectangle
 uid 130,0
@@ -777,7 +542,7 @@ position 1
 ignorePrefs 1
 titleBlock 1
 )
-*21 (CommentText
+*13 (CommentText
 uid 132,0
 shape (Rectangle
 uid 133,0
@@ -809,7 +574,7 @@ position 1
 ignorePrefs 1
 titleBlock 1
 )
-*22 (CommentText
+*14 (CommentText
 uid 135,0
 shape (Rectangle
 uid 136,0
@@ -841,7 +606,7 @@ position 1
 ignorePrefs 1
 titleBlock 1
 )
-*23 (CommentText
+*15 (CommentText
 uid 138,0
 shape (Rectangle
 uid 139,0
@@ -886,7 +651,7 @@ xt "32000,44000,73000,49000"
 )
 oxt "14000,66000,55000,71000"
 )
-*24 (Blk
+*16 (Blk
 uid 382,0
 shape (Rectangle
 uid 383,0
@@ -904,7 +669,7 @@ uid 384,0
 ps "CenterOffsetStrategy"
 stg "VerticalLayoutStrategy"
 textVec [
-*25 (Text
+*17 (Text
 uid 385,0
 va (VaSet
 font "Verdana,9,1"
@@ -914,7 +679,7 @@ st "Cursor_test"
 blo "5500,36200"
 tm "BdLibraryNameMgr"
 )
-*26 (Text
+*18 (Text
 uid 386,0
 va (VaSet
 font "Verdana,9,1"
@@ -924,7 +689,7 @@ st "PWM_Generator_tester"
 blo "5500,37400"
 tm "BlkNameMgr"
 )
-*27 (Text
+*19 (Text
 uid 387,0
 va (VaSet
 font "Verdana,9,1"
@@ -967,6 +732,241 @@ ftype 10
 )
 viewiconposition 0
 )
+*20 (SaComponent
+uid 516,0
+optionalChildren [
+*21 (CptPort
+uid 500,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 501,0
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "17625,24000,18375,24750"
+)
+tg (CPTG
+uid 502,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 503,0
+ro 270
+va (VaSet
+font "Verdana,12,0"
+)
+xt "17300,19200,18700,23000"
+st "clock"
+blo "18500,23000"
+)
+)
+thePort (LogicalPort
+decl (Decl
+n "clock"
+t "std_ulogic"
+o 1
+suid 13,0
+)
+)
+)
+*22 (CptPort
+uid 504,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 505,0
+ro 90
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "14250,19625,15000,20375"
+)
+tg (CPTG
+uid 506,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 507,0
+va (VaSet
+font "Verdana,12,0"
+)
+xt "16000,19300,28500,20700"
+st "consigne_vitesse"
+blo "16000,20500"
+)
+)
+thePort (LogicalPort
+lang 11
+decl (Decl
+n "consigne_vitesse"
+t "unsigned"
+b "(9 DOWNTO 0)"
+o 2
+suid 14,0
+)
+)
+)
+*23 (CptPort
+uid 508,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 509,0
+ro 90
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "30000,21625,30750,22375"
+)
+tg (CPTG
+uid 510,0
+ps "CptPortTextPlaceStrategy"
+stg "RightVerticalLayoutStrategy"
+f (Text
+uid 511,0
+va (VaSet
+font "Verdana,12,0"
+)
+xt "22600,21300,29000,22700"
+st "pwm_sig"
+ju 2
+blo "29000,22500"
+)
+)
+thePort (LogicalPort
+lang 11
+m 1
+decl (Decl
+n "pwm_sig"
+t "std_ulogic"
+o 4
+suid 15,0
+)
+)
+)
+*24 (CptPort
+uid 512,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 513,0
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "20625,24000,21375,24750"
+)
+tg (CPTG
+uid 514,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 515,0
+ro 270
+va (VaSet
+font "Verdana,12,0"
+)
+xt "20300,18900,21700,23000"
+st "reset"
+blo "21500,23000"
+)
+)
+thePort (LogicalPort
+lang 11
+decl (Decl
+n "reset"
+t "std_ulogic"
+o 3
+suid 16,0
+)
+)
+)
+]
+shape (Rectangle
+uid 517,0
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+lineColor "0,32896,0"
+lineWidth 2
+)
+xt "15000,9000,30000,24000"
+)
+oxt "15000,6000,30000,21000"
+ttg (MlTextGroup
+uid 518,0
+ps "CenterOffsetStrategy"
+stg "VerticalLayoutStrategy"
+textVec [
+*25 (Text
+uid 519,0
+va (VaSet
+font "Verdana,9,1"
+)
+xt "17800,15300,21500,16500"
+st "Cursor"
+blo "17800,16300"
+tm "BdLibraryNameMgr"
+)
+*26 (Text
+uid 520,0
+va (VaSet
+font "Verdana,9,1"
+)
+xt "17800,16500,27200,17700"
+st "PWM_Generator"
+blo "17800,17500"
+tm "CptNameMgr"
+)
+*27 (Text
+uid 521,0
+va (VaSet
+font "Verdana,9,1"
+)
+xt "17800,17700,20300,18900"
+st "U_0"
+blo "17800,18700"
+tm "InstanceNameMgr"
+)
+]
+)
+ga (GenericAssociation
+uid 522,0
+ps "EdgeToEdgeStrategy"
+matrix (Matrix
+uid 523,0
+text (MLText
+uid 524,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "-7000,12500,-7000,12500"
+)
+header ""
+)
+elements [
+]
+)
+viewicon (ZoomableIcon
+uid 525,0
+sl 0
+va (VaSet
+vasetType 1
+fg "49152,49152,49152"
+)
+xt "15250,22250,16750,23750"
+iconName "BlockDiagram.png"
+iconMaskName "BlockDiagram.msk"
+ftype 1
+)
+viewiconposition 0
+portVis (PortSigDisplay
+sTC 0
+sF 0
+)
+archType 1
+archFileType "UNKNOWN"
+)
 *28 (Wire
 uid 37,0
 shape (OrthoPolyLine
@@ -981,8 +981,8 @@ pts [
 "38000,32000"
 ]
 )
-start &4
-end &24
+start &23
+end &16
 sat 32
 eat 1
 stc 0
@@ -1002,7 +1002,7 @@ blo "32750,23000"
 tm "WireNameMgr"
 )
 )
-on &9
+on &1
 )
 *29 (Wire
 uid 45,0
@@ -1021,8 +1021,8 @@ pts [
 "14250,20000"
 ]
 )
-start &24
-end &3
+start &16
+end &22
 sat 2
 eat 32
 sty 1
@@ -1044,7 +1044,7 @@ blo "8800,31200"
 tm "WireNameMgr"
 )
 )
-on &10
+on &2
 )
 *30 (Wire
 uid 53,0
@@ -1059,8 +1059,8 @@ pts [
 "18000,24750"
 ]
 )
-start &24
-end &2
+start &16
+end &21
 sat 2
 eat 32
 stc 0
@@ -1081,7 +1081,7 @@ blo "17800,29000"
 tm "WireNameMgr"
 )
 )
-on &11
+on &3
 )
 *31 (Wire
 uid 61,0
@@ -1096,8 +1096,8 @@ pts [
 "21000,24750"
 ]
 )
-start &24
-end &5
+start &16
+end &24
 sat 2
 eat 32
 stc 0
@@ -1118,7 +1118,7 @@ blo "20800,29000"
 tm "WireNameMgr"
 )
 )
-on &12
+on &4
 )
 ]
 bg "65535,65535,65535"
@@ -1230,12 +1230,12 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "96,60,1576,919"
-viewArea "-20800,-500,91880,62770"
+windowSize "-8,-8,1288,768"
+viewArea "-20800,-500,94039,69177"
 cachedDiagramExtent "0,0,73000,49000"
 hasePageBreakOrigin 1
 pageBreakOrigin "0,0"
-lastUid 442,0
+lastUid 525,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
