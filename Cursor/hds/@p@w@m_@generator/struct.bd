@@ -188,7 +188,7 @@ value "LAPTOP-I9J0I4RD"
 )
 (vvPair
 variable "graphical_source_time"
-value "09:34:40"
+value "13:07:43"
 )
 (vvPair
 variable "group"
@@ -247,6 +247,34 @@ variable "series"
 value "HDL Designer Series"
 )
 (vvPair
+variable "task_DesignCompilerPath"
+value "<TBD>"
+)
+(vvPair
+variable "task_LeonardoPath"
+value "<TBD>"
+)
+(vvPair
+variable "task_ModelSimPath"
+value "<TBD>"
+)
+(vvPair
+variable "task_NC-SimPath"
+value "<TBD>"
+)
+(vvPair
+variable "task_PrecisionRTLPath"
+value "<TBD>"
+)
+(vvPair
+variable "task_QuestaSimPath"
+value "<TBD>"
+)
+(vvPair
+variable "task_VCSPath"
+value "<TBD>"
+)
+(vvPair
 variable "this_ext"
 value "bd"
 )
@@ -260,7 +288,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "09:34:40"
+value "13:07:43"
 )
 (vvPair
 variable "unit"
@@ -562,7 +590,6 @@ uid 77,0
 va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
-font "Arial,8,0"
 )
 xt "37200,82000,46200,83000"
 st "
@@ -594,7 +621,6 @@ uid 80,0
 va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
-font "Arial,8,0"
 )
 xt "54200,78000,57200,79000"
 st "
@@ -626,7 +652,6 @@ uid 83,0
 va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
-font "Arial,8,0"
 )
 xt "37200,80000,47200,81000"
 st "
@@ -658,7 +683,6 @@ uid 86,0
 va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
-font "Arial,8,0"
 )
 xt "33200,80000,35300,81000"
 st "
@@ -690,7 +714,6 @@ uid 89,0
 va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
-font "Arial,8,0"
 )
 xt "54200,79200,63600,80200"
 st "
@@ -721,7 +744,6 @@ uid 92,0
 va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
-font "Arial,8,0"
 )
 xt "58200,78000,59800,79000"
 st "
@@ -753,7 +775,7 @@ uid 95,0
 va (VaSet
 fg "32768,0,0"
 )
-xt "38350,78400,48650,79600"
+xt "40000,78500,47000,79500"
 st "
 <company name>
 "
@@ -784,7 +806,6 @@ uid 98,0
 va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
-font "Arial,8,0"
 )
 xt "33200,81000,35300,82000"
 st "
@@ -816,7 +837,6 @@ uid 101,0
 va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
-font "Arial,8,0"
 )
 xt "33200,82000,35900,83000"
 st "
@@ -848,7 +868,6 @@ uid 104,0
 va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
-font "Arial,8,0"
 )
 xt "37200,81000,48900,82000"
 st "
@@ -894,7 +913,7 @@ uid 238,0
 va (VaSet
 fg "0,0,32768"
 )
-xt "3200,-16800,37900,-9600"
+xt "3200,-16800,38200,-12800"
 st "
 Ce bloc est constitué d'un compteur qui compte de 0 à 0123 (10 bits). La valeur de ce compteur est ensuite comparée au signal consigne_vitesse. Dès que le compteur prend une valeur supérieure au signal consigne_vitesse, lepwm_sig passe à 1. Le reste du temps le signal pwm_sig reste à 0. 
  
@@ -2182,14 +2201,14 @@ fg "65535,65535,65535"
 lineColor "0,0,32768"
 lineWidth 2
 )
-xt "-17000,35000,1000,40000"
+xt "-19000,35000,-1000,40000"
 )
 oxt "0,0,18000,5000"
 text (MLText
 uid 810,0
 va (VaSet
 )
-xt "-16800,35200,-2200,37600"
+xt "-18800,35200,-9800,37200"
 st "
 value<=\"0000000000\";
                                        
@@ -2210,7 +2229,7 @@ fg "65535,65535,37120"
 lineColor "0,0,32768"
 lineWidth 2
 )
-xt "-4000,25000,4000,35000"
+xt "-6000,25000,2000,35000"
 )
 oxt "0,0,8000,10000"
 ttg (MlTextGroup
@@ -2223,9 +2242,9 @@ uid 804,0
 va (VaSet
 font "Verdana,9,1"
 )
-xt "-1200,28800,1200,30000"
+xt "-3200,28800,-800,30000"
 st "eb1"
-blo "-1200,29800"
+blo "-3200,29800"
 tm "HdlTextNameMgr"
 )
 *68 (Text
@@ -2233,9 +2252,9 @@ uid 805,0
 va (VaSet
 font "Verdana,9,1"
 )
-xt "-1200,30000,0,31200"
+xt "-3200,30000,-2000,31200"
 st "1"
-blo "-1200,31000"
+blo "-3200,31000"
 tm "HdlTextNumberMgr"
 )
 ]
@@ -2247,7 +2266,7 @@ va (VaSet
 vasetType 1
 fg "49152,49152,49152"
 )
-xt "-3750,33250,-2250,34750"
+xt "-5750,33250,-4250,34750"
 iconName "TextFile.png"
 iconMaskName "TextFile.msk"
 ftype 21
@@ -2419,7 +2438,7 @@ uid 593,0
 va (VaSet
 vasetType 1
 )
-xt "19600,59600,20400,60400"
+xt "18600,59600,19400,60400"
 radius 400
 )
 )
@@ -2586,9 +2605,9 @@ uid 589,0
 va (VaSet
 vasetType 3
 )
-xt "20000,31000,83000,60000"
+xt "19000,31000,83000,60000"
 pts [
-"20000,60000"
+"19000,60000"
 "83000,60000"
 "83000,31000"
 ]
@@ -2843,9 +2862,9 @@ va (VaSet
 vasetType 3
 lineWidth 2
 )
-xt "4000,31000,15250,31000"
+xt "2000,31000,15250,31000"
 pts [
-"4000,31000"
+"2000,31000"
 "15250,31000"
 ]
 )
@@ -2865,9 +2884,9 @@ f (Text
 uid 820,0
 va (VaSet
 )
-xt "6000,29800,9400,31000"
+xt "4000,29800,7400,31000"
 st "value"
-blo "6000,30800"
+blo "4000,30800"
 tm "WireNameMgr"
 )
 )
@@ -2939,7 +2958,7 @@ blo "-6000,-28200"
 uid 107,0
 va (VaSet
 )
-xt "-6000,-28000,11500,-22000"
+xt "-6000,-28000,5200,-23000"
 st "LIBRARY ieee;
   USE ieee.std_logic_1164.all;
   USE ieee.numeric_std.all;
@@ -2978,7 +2997,7 @@ uid 111,0
 va (VaSet
 isHidden 1
 )
-xt "20000,2400,32100,4800"
+xt "20000,2400,27600,4400"
 st "`resetall
 `timescale 1ns/10ps"
 tm "BdCompilerDirectivesTextMgr"
@@ -3022,9 +3041,9 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "0,-1080,1921,-24"
-viewArea "-60652,-16973,125346,84981"
-cachedDiagramExtent "-17000,-29200,101100,83000"
+windowSize "-8,-8,1288,768"
+viewArea "12144,9029,106034,63710"
+cachedDiagramExtent "-19000,-29200,101100,83000"
 pageSetupInfo (PageSetupInfo
 ptrCmd ""
 toPrinter 1
@@ -3047,7 +3066,7 @@ exportStdPackageRefs 1
 )
 hasePageBreakOrigin 1
 pageBreakOrigin "-14000,-49000"
-lastUid 855,0
+lastUid 880,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
@@ -3062,7 +3081,7 @@ text (MLText
 va (VaSet
 fg "0,0,32768"
 )
-xt "200,200,3200,1400"
+xt "200,200,2100,1200"
 st "
 Text
 "
@@ -3508,7 +3527,7 @@ xt "0,0,18000,5000"
 text (MLText
 va (VaSet
 )
-xt "200,200,3200,1400"
+xt "200,200,2100,1200"
 st "
 Text
 "
@@ -3798,7 +3817,7 @@ tm "BundleNameMgr"
 second (MLText
 va (VaSet
 )
-xt "0,1200,1500,2400"
+xt "0,1200,1000,2200"
 st "()"
 tm "BundleContentsMgr"
 )
@@ -3846,7 +3865,7 @@ ps "TopLeftStrategy"
 text (MLText
 va (VaSet
 )
-xt "0,-1300,18500,-100"
+xt "0,-1300,12500,-300"
 st "g0: FOR i IN 0 TO n GENERATE"
 tm "FrameTitleTextMgr"
 )
@@ -3906,7 +3925,7 @@ ps "TopLeftStrategy"
 text (MLText
 va (VaSet
 )
-xt "0,-1300,11000,-100"
+xt "0,-1300,7300,-300"
 st "b0: BLOCK (guard)"
 tm "FrameTitleTextMgr"
 )
