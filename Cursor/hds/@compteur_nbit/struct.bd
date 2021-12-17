@@ -77,23 +77,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\2021-eln-cursor-cursor_jche\\Prefs\\..\\Cursor\\hdl"
+value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\ELN_CURSOR_JCHE_THJCT\\Prefs\\..\\Cursor\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\2021-eln-cursor-cursor_jche\\Prefs\\..\\Cursor\\hds"
+value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\ELN_CURSOR_JCHE_THJCT\\Prefs\\..\\Cursor\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\2021-eln-cursor-cursor_jche\\Prefs\\..\\Cursor\\hds\\@compteur_nbit\\struct.bd.info"
+value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\ELN_CURSOR_JCHE_THJCT\\Prefs\\..\\Cursor\\hds\\@compteur_nbit\\struct.bd.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\2021-eln-cursor-cursor_jche\\Prefs\\..\\Cursor\\hds\\@compteur_nbit\\struct.bd.user"
+value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\ELN_CURSOR_JCHE_THJCT\\Prefs\\..\\Cursor\\hds\\@compteur_nbit\\struct.bd.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\2021-eln-cursor-cursor_jche\\Prefs\\..\\Cursor\\hds"
+value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\ELN_CURSOR_JCHE_THJCT\\Prefs\\..\\Cursor\\hds"
 )
 (vvPair
 variable "appl"
@@ -113,27 +113,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\2021-eln-cursor-cursor_jche\\Prefs\\..\\Cursor\\hds\\@compteur_nbit"
+value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\ELN_CURSOR_JCHE_THJCT\\Prefs\\..\\Cursor\\hds\\@compteur_nbit"
 )
 (vvPair
 variable "d_logical"
-value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\2021-eln-cursor-cursor_jche\\Prefs\\..\\Cursor\\hds\\Compteur_nbit"
+value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\ELN_CURSOR_JCHE_THJCT\\Prefs\\..\\Cursor\\hds\\Compteur_nbit"
 )
 (vvPair
 variable "date"
-value "14.12.2021"
+value "17.12.2021"
 )
 (vvPair
 variable "day"
-value "mar."
+value "ven."
 )
 (vvPair
 variable "day_long"
-value "mardi"
+value "vendredi"
 )
 (vvPair
 variable "dd"
-value "14"
+value "17"
 )
 (vvPair
 variable "entity_name"
@@ -161,7 +161,7 @@ value "theo"
 )
 (vvPair
 variable "graphical_source_date"
-value "14.12.2021"
+value "17.12.2021"
 )
 (vvPair
 variable "graphical_source_group"
@@ -173,7 +173,7 @@ value "LAPTOP-I9J0I4RD"
 )
 (vvPair
 variable "graphical_source_time"
-value "15:48:29"
+value "09:30:12"
 )
 (vvPair
 variable "group"
@@ -213,11 +213,11 @@ value "décembre"
 )
 (vvPair
 variable "p"
-value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\2021-eln-cursor-cursor_jche\\Prefs\\..\\Cursor\\hds\\@compteur_nbit\\struct.bd"
+value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\ELN_CURSOR_JCHE_THJCT\\Prefs\\..\\Cursor\\hds\\@compteur_nbit\\struct.bd"
 )
 (vvPair
 variable "p_logical"
-value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\2021-eln-cursor-cursor_jche\\Prefs\\..\\Cursor\\hds\\Compteur_nbit\\struct.bd"
+value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\ELN_CURSOR_JCHE_THJCT\\Prefs\\..\\Cursor\\hds\\Compteur_nbit\\struct.bd"
 )
 (vvPair
 variable "package_name"
@@ -245,7 +245,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "15:48:29"
+value "09:30:12"
 )
 (vvPair
 variable "unit"
@@ -336,8 +336,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,2400,35000,3200"
-st "clock      : std_ulogic
-"
+st "clock      : std_ulogic"
 )
 )
 *3 (PortIoIn
@@ -401,8 +400,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,11600,44000,12400"
-st "SIGNAL en         : unsigned(n DOWNTO 0)
-"
+st "SIGNAL en         : unsigned(n DOWNTO 0)"
 )
 )
 *5 (PortIoIn
@@ -465,8 +463,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,4000,35000,4800"
-st "load       : std_uLogic
-"
+st "load       : std_uLogic"
 )
 )
 *7 (PortIoOut
@@ -573,8 +570,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,4800,35000,5600"
-st "reset_fonc : std_uLogic
-"
+st "reset_fonc : std_uLogic"
 )
 )
 *10 (PortIoIn
@@ -637,8 +633,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,5600,35000,6400"
-st "rst        : std_uLogic
-"
+st "rst        : std_uLogic"
 )
 )
 *12 (PortIoIn
@@ -701,8 +696,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,6400,35000,7200"
-st "set        : std_uLogic
-"
+st "set        : std_uLogic"
 )
 )
 *14 (PortIoIn
@@ -765,8 +759,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,7200,35000,8000"
-st "up_down    : std_uLogic
-"
+st "up_down    : std_uLogic"
 )
 )
 *16 (PortIoIn
@@ -830,8 +823,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,8000,41000,8800"
-st "value      : unsigned(n-1 DOWNTO 0)
-"
+st "value      : unsigned(n-1 DOWNTO 0)"
 )
 )
 *18 (Grouping
@@ -856,7 +848,7 @@ fg "0,0,32768"
 bg "0,0,32768"
 font "Arial,8,0"
 )
-xt "26200,48000,35400,49000"
+xt "26200,48000,35200,49000"
 st "
 by %user on %dd %month %year
 "
@@ -1708,8 +1700,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,9600,41000,10400"
-st "q          : unsigned(n-1 DOWNTO 0)
-"
+st "q          : unsigned(n-1 DOWNTO 0)"
 )
 )
 *47 (Net
@@ -1727,8 +1718,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,3200,35000,4000"
-st "en_in      : std_ulogic
-"
+st "en_in      : std_ulogic"
 )
 )
 *48 (Net
@@ -1746,8 +1736,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,8800,35000,9600"
-st "en_out     : std_ulogic
-"
+st "en_out     : std_ulogic"
 )
 )
 *49 (PortIoOut
@@ -2705,7 +2694,7 @@ pts [
 start &33
 sat 32
 eat 16
-sl "(i)"
+sl "(i-1)"
 stc 0
 st 0
 si 0
@@ -2717,8 +2706,8 @@ f (Text
 uid 412,0
 va (VaSet
 )
-xt "99750,25800,102150,27000"
-st "q(i)"
+xt "99750,25800,103350,27000"
+st "q(i-1)"
 blo "99750,26800"
 tm "WireNameMgr"
 )
@@ -2822,7 +2811,7 @@ pts [
 start &39
 sat 32
 eat 16
-sl "(i)"
+sl "(i-1)"
 stc 0
 st 0
 si 0
@@ -2834,8 +2823,8 @@ f (Text
 uid 882,0
 va (VaSet
 )
-xt "65250,20800,69750,22000"
-st "value(i)"
+xt "65250,20800,71650,22000"
+st "value(i-1)"
 blo "65250,21800"
 tm "WireNameMgr"
 )
@@ -2954,12 +2943,12 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "-8,-8,1288,768"
-viewArea "30556,3725,115996,53325"
+windowSize "0,-1080,1921,-24"
+viewArea "11000,-18200,136282,48400"
 cachedDiagramExtent "-8800,0,147100,49000"
 hasePageBreakOrigin 1
 pageBreakOrigin "-10000,0"
-lastUid 923,0
+lastUid 1005,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
