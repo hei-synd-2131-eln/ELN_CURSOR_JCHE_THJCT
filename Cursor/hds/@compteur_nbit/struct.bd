@@ -77,23 +77,25 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "C:\\eda\\ELN_CURSOR_JCHE_THJCT\\Prefs\\..\\Cursor\\hdl"
+
+value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\ELN_CURSOR_JCHE_THJCT\\Prefs\\..\\Cursor\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\eda\\ELN_CURSOR_JCHE_THJCT\\Prefs\\..\\Cursor\\hds"
+value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\ELN_CURSOR_JCHE_THJCT\\Prefs\\..\\Cursor\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\eda\\ELN_CURSOR_JCHE_THJCT\\Prefs\\..\\Cursor\\hds\\@compteur_nbit\\struct.bd.info"
+value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\ELN_CURSOR_JCHE_THJCT\\Prefs\\..\\Cursor\\hds\\@compteur_nbit\\struct.bd.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\eda\\ELN_CURSOR_JCHE_THJCT\\Prefs\\..\\Cursor\\hds\\@compteur_nbit\\struct.bd.user"
+value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\ELN_CURSOR_JCHE_THJCT\\Prefs\\..\\Cursor\\hds\\@compteur_nbit\\struct.bd.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\eda\\ELN_CURSOR_JCHE_THJCT\\Prefs\\..\\Cursor\\hds"
+value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\ELN_CURSOR_JCHE_THJCT\\Prefs\\..\\Cursor\\hds"
+
 )
 (vvPair
 variable "appl"
@@ -113,11 +115,13 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\eda\\ELN_CURSOR_JCHE_THJCT\\Prefs\\..\\Cursor\\hds\\@compteur_nbit"
+
+value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\ELN_CURSOR_JCHE_THJCT\\Prefs\\..\\Cursor\\hds\\@compteur_nbit"
 )
 (vvPair
 variable "d_logical"
-value "C:\\eda\\ELN_CURSOR_JCHE_THJCT\\Prefs\\..\\Cursor\\hds\\Compteur_nbit"
+value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\ELN_CURSOR_JCHE_THJCT\\Prefs\\..\\Cursor\\hds\\Compteur_nbit"
+
 )
 (vvPair
 variable "date"
@@ -173,7 +177,9 @@ value "LAPTOP-J400VU4F"
 )
 (vvPair
 variable "graphical_source_time"
-value "09:16:57"
+
+value "09:30:12"
+
 )
 (vvPair
 variable "group"
@@ -205,19 +211,21 @@ value "Compteur_nbit"
 )
 (vvPair
 variable "month"
-value "déc."
+value "dÃ©c."
 )
 (vvPair
 variable "month_long"
-value "décembre"
+value "dÃ©cembre"
 )
 (vvPair
 variable "p"
-value "C:\\eda\\ELN_CURSOR_JCHE_THJCT\\Prefs\\..\\Cursor\\hds\\@compteur_nbit\\struct.bd"
+
+value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\ELN_CURSOR_JCHE_THJCT\\Prefs\\..\\Cursor\\hds\\@compteur_nbit\\struct.bd"
 )
 (vvPair
 variable "p_logical"
-value "C:\\eda\\ELN_CURSOR_JCHE_THJCT\\Prefs\\..\\Cursor\\hds\\Compteur_nbit\\struct.bd"
+value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\ELN_CURSOR_JCHE_THJCT\\Prefs\\..\\Cursor\\hds\\Compteur_nbit\\struct.bd"
+
 )
 (vvPair
 variable "package_name"
@@ -245,7 +253,9 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "09:16:57"
+
+value "09:30:12"
+
 )
 (vvPair
 variable "unit"
@@ -2811,7 +2821,7 @@ pts [
 start &39
 sat 32
 eat 16
-sl "(i)"
+sl "(i-1)"
 stc 0
 st 0
 si 0
@@ -2823,8 +2833,8 @@ f (Text
 uid 882,0
 va (VaSet
 )
-xt "65250,20800,69750,22000"
-st "value(i)"
+xt "65250,20800,71650,22000"
+st "value(i-1)"
 blo "65250,21800"
 tm "WireNameMgr"
 )
@@ -2943,12 +2953,14 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "0,0,1297,776"
-viewArea "30600,3700,116120,55540"
+
+windowSize "0,-1080,1921,-24"
+viewArea "11000,-18200,136282,48400"
 cachedDiagramExtent "-8800,0,147100,49000"
 hasePageBreakOrigin 1
 pageBreakOrigin "-10000,0"
-lastUid 964,0
+lastUid 1005,0
+
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
