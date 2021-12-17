@@ -563,7 +563,7 @@ value "LAPTOP-J400VU4F"
 )
 (vvPair
 variable "graphical_source_time"
-value "08:22:48"
+value "08:28:49"
 )
 (vvPair
 variable "group"
@@ -635,7 +635,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "08:22:48"
+value "08:28:49"
 )
 (vvPair
 variable "unit"
@@ -1073,7 +1073,7 @@ fg "0,0,32768"
 bg "0,0,32768"
 font "Arial,8,0"
 )
-xt "36200,48000,45200,49000"
+xt "36200,48000,45400,49000"
 st "
 by %user on %dd %month %year
 "
@@ -1696,7 +1696,7 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 1215,0
+lastUid 1238,0
 okToSyncOnLoad 1
 OkToSyncGenericsOnLoad 1
 activeModelName "Symbol:CDM"
