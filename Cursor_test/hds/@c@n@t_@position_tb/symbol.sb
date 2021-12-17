@@ -335,11 +335,11 @@ value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.El
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\ELN_CURSOR_JCHE_THJCT\\Prefs\\..\\Cursor_test\\hds\\@f@s@m_tb\\symbol.sb.info"
+value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\ELN_CURSOR_JCHE_THJCT\\Prefs\\..\\Cursor_test\\hds\\@c@n@t_@position_tb\\symbol.sb.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\ELN_CURSOR_JCHE_THJCT\\Prefs\\..\\Cursor_test\\hds\\@f@s@m_tb\\symbol.sb.user"
+value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\ELN_CURSOR_JCHE_THJCT\\Prefs\\..\\Cursor_test\\hds\\@c@n@t_@position_tb\\symbol.sb.user"
 )
 (vvPair
 variable "SourceDir"
@@ -354,20 +354,16 @@ variable "arch_name"
 value "symbol"
 )
 (vvPair
-variable "concat_file"
-value "concatenated"
-)
-(vvPair
 variable "config"
 value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\ELN_CURSOR_JCHE_THJCT\\Prefs\\..\\Cursor_test\\hds\\@f@s@m_tb"
+value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\ELN_CURSOR_JCHE_THJCT\\Prefs\\..\\Cursor_test\\hds\\@c@n@t_@position_tb"
 )
 (vvPair
 variable "d_logical"
-value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\ELN_CURSOR_JCHE_THJCT\\Prefs\\..\\Cursor_test\\hds\\FSM_tb"
+value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\ELN_CURSOR_JCHE_THJCT\\Prefs\\..\\Cursor_test\\hds\\CNT_Position_tb"
 )
 (vvPair
 variable "date"
@@ -387,7 +383,7 @@ value "17"
 )
 (vvPair
 variable "entity_name"
-value "FSM_tb"
+value "CNT_Position_tb"
 )
 (vvPair
 variable "ext"
@@ -423,7 +419,7 @@ value "LAPTOP-I9J0I4RD"
 )
 (vvPair
 variable "graphical_source_time"
-value "13:15:09"
+value "13:17:28"
 )
 (vvPair
 variable "group"
@@ -451,7 +447,7 @@ value "12"
 )
 (vvPair
 variable "module_name"
-value "FSM_tb"
+value "CNT_Position_tb"
 )
 (vvPair
 variable "month"
@@ -463,11 +459,11 @@ value "décembre"
 )
 (vvPair
 variable "p"
-value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\ELN_CURSOR_JCHE_THJCT\\Prefs\\..\\Cursor_test\\hds\\@f@s@m_tb\\symbol.sb"
+value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\ELN_CURSOR_JCHE_THJCT\\Prefs\\..\\Cursor_test\\hds\\@c@n@t_@position_tb\\symbol.sb"
 )
 (vvPair
 variable "p_logical"
-value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\ELN_CURSOR_JCHE_THJCT\\Prefs\\..\\Cursor_test\\hds\\FSM_tb\\symbol.sb"
+value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\ELN_CURSOR_JCHE_THJCT\\Prefs\\..\\Cursor_test\\hds\\CNT_Position_tb\\symbol.sb"
 )
 (vvPair
 variable "package_name"
@@ -523,11 +519,11 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "13:15:09"
+value "13:17:28"
 )
 (vvPair
 variable "unit"
-value "FSM_tb"
+value "CNT_Position_tb"
 )
 (vvPair
 variable "user"
@@ -564,7 +560,7 @@ fg "0,65535,0"
 lineColor "0,32896,0"
 lineWidth 2
 )
-xt "15000,6000,44000,26000"
+xt "15000,6000,33000,26000"
 )
 biTextGroup (BiTextGroup
 uid 10,0
@@ -573,20 +569,20 @@ stg "VerticalLayoutStrategy"
 first (Text
 uid 11,0
 va (VaSet
-font "Verdana,9,1"
+font "arial,8,1"
 )
-xt "26800,14800,33800,16000"
+xt "22200,15000,27400,16000"
 st "Cursor_test"
-blo "26800,15800"
+blo "22200,15800"
 )
 second (Text
 uid 12,0
 va (VaSet
-font "Verdana,9,1"
+font "arial,8,1"
 )
-xt "26800,16000,31100,17200"
-st "FSM_tb"
-blo "26800,17000"
+xt "22200,16000,29400,17000"
+st "CNT_Position_tb"
+blo "22200,16800"
 )
 )
 gi *52 (GenericInterface
@@ -915,7 +911,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "36200,47000,47000,48000"
+xt "36200,47000,50100,48000"
 st "
 %library/%unit/%view
 "
@@ -951,7 +947,7 @@ xSpacing 1000
 xySpacing 1000
 xShown 1
 yShown 1
-color "65535,0,0"
+color "26368,26368,26368"
 )
 packageList *64 (PackageList
 uid 48,0
@@ -960,17 +956,18 @@ textVec [
 *65 (Text
 uid 49,0
 va (VaSet
-font "Verdana,9,1"
+font "arial,8,1"
 )
-xt "0,0,7600,1200"
+xt "0,0,5400,1000"
 st "Package List"
-blo "0,1000"
+blo "0,800"
 )
 *66 (MLText
 uid 50,0
 va (VaSet
+font "arial,8,0"
 )
-xt "0,1200,17500,4800"
+xt "0,1000,10800,4000"
 tm "PackageList"
 )
 ]
@@ -992,6 +989,7 @@ xt "0,0,15000,5000"
 text (MLText
 va (VaSet
 fg "0,0,32768"
+font "arial,8,0"
 )
 xt "200,200,2100,1200"
 st "
@@ -1045,11 +1043,11 @@ title (TextAssociate
 ps "TopLeftStrategy"
 text (Text
 va (VaSet
-font "Verdana,9,1"
+font "arial,8,1"
 )
-xt "1000,1000,5000,2200"
+xt "1000,1000,3800,2000"
 st "Panel0"
-blo "1000,2000"
+blo "1000,1800"
 tm "PanelText"
 )
 )
@@ -1067,26 +1065,26 @@ fg "0,65535,0"
 lineColor "0,32896,0"
 lineWidth 2
 )
-xt "15000,6000,44000,26000"
+xt "15000,6000,33000,26000"
 )
 biTextGroup (BiTextGroup
 ps "CenterOffsetStrategy"
 stg "VerticalLayoutStrategy"
 first (Text
 va (VaSet
-font "Verdana,9,1"
+font "arial,8,1"
 )
-xt "26800,14800,32200,16000"
+xt "22200,15000,25800,16000"
 st "<library>"
-blo "26800,15800"
+blo "22200,15800"
 )
 second (Text
 va (VaSet
-font "Verdana,9,1"
+font "arial,8,1"
 )
-xt "26800,16000,30700,17200"
+xt "22200,16000,24800,17000"
 st "<cell>"
-blo "26800,17000"
+blo "22200,16800"
 )
 )
 gi *67 (GenericInterface
@@ -1196,46 +1194,46 @@ stg "SymDeclLayoutStrategy"
 declLabel (Text
 uid 2,0
 va (VaSet
-font "Verdana,9,1"
+font "arial,8,1"
 )
-xt "42000,0,49400,1200"
+xt "42000,0,47400,1000"
 st "Declarations"
-blo "42000,1000"
+blo "42000,800"
 )
 portLabel (Text
 uid 3,0
 va (VaSet
-font "Verdana,9,1"
+font "arial,8,1"
 )
-xt "42000,1200,45700,2400"
+xt "42000,1000,44700,2000"
 st "Ports:"
-blo "42000,2200"
+blo "42000,1800"
 )
 externalLabel (Text
 uid 4,0
 va (VaSet
-font "Verdana,9,1"
+font "arial,8,1"
 )
-xt "42000,2400,45200,3600"
+xt "42000,2000,44400,3000"
 st "User:"
-blo "42000,3400"
+blo "42000,2800"
 )
 internalLabel (Text
 uid 6,0
 va (VaSet
 isHidden 1
-font "Verdana,9,1"
+font "arial,8,1"
 )
-xt "42000,0,50200,1200"
+xt "42000,0,47800,1000"
 st "Internal User:"
-blo "42000,1000"
+blo "42000,800"
 )
 externalText (MLText
 uid 5,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,3600,44000,3600"
+xt "44000,3000,44000,3000"
 tm "SyDeclarativeTextMgr"
 )
 internalText (MLText

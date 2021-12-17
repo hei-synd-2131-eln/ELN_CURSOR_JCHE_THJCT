@@ -1,7 +1,7 @@
 DocumentHdrVersion "1.1"
 Header (DocumentHdr
 version 2
-dialect 2
+dialect 11
 dmPackageRefs [
 (DmPackageRef
 library "ieee"
@@ -46,23 +46,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\2021-eln-cursor-cursor_jche\\Prefs\\..\\Cursor_test\\hdl"
+value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\ELN_CURSOR_JCHE_THJCT\\Prefs\\..\\Cursor_test\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\2021-eln-cursor-cursor_jche\\Prefs\\..\\Cursor_test\\hds"
+value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\ELN_CURSOR_JCHE_THJCT\\Prefs\\..\\Cursor_test\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\2021-eln-cursor-cursor_jche\\Prefs\\..\\Cursor_test\\hds\\@f@s@m_tb\\struct.bd.info"
+value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\ELN_CURSOR_JCHE_THJCT\\Prefs\\..\\Cursor_test\\hds\\@f@s@m_tb\\struct.bd.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\2021-eln-cursor-cursor_jche\\Prefs\\..\\Cursor_test\\hds\\@f@s@m_tb\\struct.bd.user"
+value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\ELN_CURSOR_JCHE_THJCT\\Prefs\\..\\Cursor_test\\hds\\@f@s@m_tb\\struct.bd.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\2021-eln-cursor-cursor_jche\\Prefs\\..\\Cursor_test\\hds"
+value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\ELN_CURSOR_JCHE_THJCT\\Prefs\\..\\Cursor_test\\hds"
 )
 (vvPair
 variable "appl"
@@ -82,27 +82,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\2021-eln-cursor-cursor_jche\\Prefs\\..\\Cursor_test\\hds\\@f@s@m_tb"
+value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\ELN_CURSOR_JCHE_THJCT\\Prefs\\..\\Cursor_test\\hds\\@f@s@m_tb"
 )
 (vvPair
 variable "d_logical"
-value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\2021-eln-cursor-cursor_jche\\Prefs\\..\\Cursor_test\\hds\\FSM_tb"
+value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\ELN_CURSOR_JCHE_THJCT\\Prefs\\..\\Cursor_test\\hds\\FSM_tb"
 )
 (vvPair
 variable "date"
-value "14.12.2021"
+value "17.12.2021"
 )
 (vvPair
 variable "day"
-value "mar."
+value "ven."
 )
 (vvPair
 variable "day_long"
-value "mardi"
+value "vendredi"
 )
 (vvPair
 variable "dd"
-value "14"
+value "17"
 )
 (vvPair
 variable "entity_name"
@@ -130,7 +130,7 @@ value "theo"
 )
 (vvPair
 variable "graphical_source_date"
-value "14.12.2021"
+value "17.12.2021"
 )
 (vvPair
 variable "graphical_source_group"
@@ -142,7 +142,7 @@ value "LAPTOP-I9J0I4RD"
 )
 (vvPair
 variable "graphical_source_time"
-value "13:49:05"
+value "13:15:10"
 )
 (vvPair
 variable "group"
@@ -182,11 +182,11 @@ value "décembre"
 )
 (vvPair
 variable "p"
-value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\2021-eln-cursor-cursor_jche\\Prefs\\..\\Cursor_test\\hds\\@f@s@m_tb\\struct.bd"
+value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\ELN_CURSOR_JCHE_THJCT\\Prefs\\..\\Cursor_test\\hds\\@f@s@m_tb\\struct.bd"
 )
 (vvPair
 variable "p_logical"
-value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\2021-eln-cursor-cursor_jche\\Prefs\\..\\Cursor_test\\hds\\FSM_tb\\struct.bd"
+value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\ELN_CURSOR_JCHE_THJCT\\Prefs\\..\\Cursor_test\\hds\\FSM_tb\\struct.bd"
 )
 (vvPair
 variable "package_name"
@@ -199,6 +199,34 @@ value "hds"
 (vvPair
 variable "series"
 value "HDL Designer Series"
+)
+(vvPair
+variable "task_DesignCompilerPath"
+value "<TBD>"
+)
+(vvPair
+variable "task_LeonardoPath"
+value "<TBD>"
+)
+(vvPair
+variable "task_ModelSimPath"
+value "<TBD>"
+)
+(vvPair
+variable "task_NC-SimPath"
+value "<TBD>"
+)
+(vvPair
+variable "task_PrecisionRTLPath"
+value "<TBD>"
+)
+(vvPair
+variable "task_QuestaSimPath"
+value "<TBD>"
+)
+(vvPair
+variable "task_VCSPath"
+value "<TBD>"
 )
 (vvPair
 variable "this_ext"
@@ -214,7 +242,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "13:49:05"
+value "13:15:10"
 )
 (vvPair
 variable "unit"
@@ -242,7 +270,8 @@ value "21"
 )
 ]
 )
-LanguageMgr "Vhdl93LangMgr"
+LanguageMgr "Vhdl2008LangMgr"
+uid 402,0
 optionalChildren [
 *1 (SaComponent
 uid 69,0
@@ -903,8 +932,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,5200,39500,6000"
-st "SIGNAL accel        : std_ulogic
-"
+st "SIGNAL accel        : std_ulogic"
 )
 )
 *21 (Net
@@ -922,8 +950,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,7600,39500,8400"
-st "SIGNAL decel        : std_ulogic
-"
+st "SIGNAL decel        : std_ulogic"
 )
 )
 *22 (Net
@@ -941,8 +968,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,9200,39500,10000"
-st "SIGNAL full_speed   : std_ulogic
-"
+st "SIGNAL full_speed   : std_ulogic"
 )
 )
 *23 (Net
@@ -960,8 +986,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,4400,39500,5200"
-st "SIGNAL Reset_CNT    : std_ulogic
-"
+st "SIGNAL Reset_CNT    : std_ulogic"
 )
 )
 *24 (Net
@@ -979,8 +1004,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,13200,39500,14000"
-st "SIGNAL sens_r       : std_ulogic
-"
+st "SIGNAL sens_r       : std_ulogic"
 )
 )
 *25 (Net
@@ -998,8 +1022,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,14800,39500,15600"
-st "SIGNAL start_0      : std_ulogic
-"
+st "SIGNAL start_0      : std_ulogic"
 )
 )
 *26 (Net
@@ -1017,8 +1040,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,6000,39500,6800"
-st "SIGNAL button4_Sync : std_uLogic
-"
+st "SIGNAL button4_Sync : std_uLogic"
 )
 )
 *27 (Net
@@ -1036,8 +1058,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,10000,39500,10800"
-st "SIGNAL go1_Sync     : std_uLogic
-"
+st "SIGNAL go1_Sync     : std_uLogic"
 )
 )
 *28 (Net
@@ -1055,8 +1076,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,10800,39500,11600"
-st "SIGNAL go2_Sync     : std_uLogic
-"
+st "SIGNAL go2_Sync     : std_uLogic"
 )
 )
 *29 (Net
@@ -1074,8 +1094,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,12400,39500,13200"
-st "SIGNAL restart_Sync : std_uLogic
-"
+st "SIGNAL restart_Sync : std_uLogic"
 )
 )
 *30 (Net
@@ -1093,8 +1112,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,14000,39500,14800"
-st "SIGNAL sensor1_Sync : std_uLogic
-"
+st "SIGNAL sensor1_Sync : std_uLogic"
 )
 )
 *31 (Net
@@ -1111,8 +1129,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,6800,39500,7600"
-st "SIGNAL clock        : std_ulogic
-"
+st "SIGNAL clock        : std_ulogic"
 )
 )
 *32 (Net
@@ -1129,8 +1146,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,11600,39500,12400"
-st "SIGNAL reset        : std_ulogic
-"
+st "SIGNAL reset        : std_ulogic"
 )
 )
 *33 (Net
@@ -1148,8 +1164,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,8400,39500,9200"
-st "SIGNAL decod_dir    : std_ulogic
-"
+st "SIGNAL decod_dir    : std_ulogic"
 )
 )
 *34 (Net
@@ -1168,8 +1183,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,3600,45500,4400"
-st "SIGNAL Pos_c        : unsigned(15 DOWNTO 0)
-"
+st "SIGNAL Pos_c        : unsigned(15 DOWNTO 0)"
 )
 )
 *35 (Blk
@@ -1271,7 +1285,6 @@ uid 333,0
 va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
-font "Arial,8,0"
 )
 xt "36200,48000,45200,49000"
 st "
@@ -1303,7 +1316,6 @@ uid 336,0
 va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
-font "Arial,8,0"
 )
 xt "53200,44000,56200,45000"
 st "
@@ -1335,7 +1347,6 @@ uid 339,0
 va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
-font "Arial,8,0"
 )
 xt "36200,46000,46200,47000"
 st "
@@ -1367,7 +1378,6 @@ uid 342,0
 va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
-font "Arial,8,0"
 )
 xt "32200,46000,34300,47000"
 st "
@@ -1399,7 +1409,6 @@ uid 345,0
 va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
-font "Arial,8,0"
 )
 xt "53200,45200,62600,46200"
 st "
@@ -1430,7 +1439,6 @@ uid 348,0
 va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
-font "Arial,8,0"
 )
 xt "57200,44000,58800,45000"
 st "
@@ -1462,7 +1470,7 @@ uid 351,0
 va (VaSet
 fg "32768,0,0"
 )
-xt "37350,44400,47650,45600"
+xt "39000,44500,46000,45500"
 st "
 <company name>
 "
@@ -1493,7 +1501,6 @@ uid 354,0
 va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
-font "Arial,8,0"
 )
 xt "32200,47000,34300,48000"
 st "
@@ -1525,7 +1532,6 @@ uid 357,0
 va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
-font "Arial,8,0"
 )
 xt "32200,48000,34900,49000"
 st "
@@ -1557,9 +1563,8 @@ uid 360,0
 va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
-font "Arial,8,0"
 )
-xt "36200,47000,45200,48000"
+xt "36200,47000,46400,48000"
 st "
 %library/%unit/%view
 "
@@ -2676,7 +2681,7 @@ blo "0,1000"
 uid 393,0
 va (VaSet
 )
-xt "0,1200,17700,4800"
+xt "0,1200,11300,4200"
 st "LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;
 USE ieee.numeric_std.ALL;"
@@ -2713,7 +2718,7 @@ uid 397,0
 va (VaSet
 isHidden 1
 )
-xt "20000,2400,32100,4800"
+xt "20000,2400,27600,4400"
 st "`resetall
 `timescale 1ns/10ps"
 tm "BdCompilerDirectivesTextMgr"
@@ -2761,7 +2766,7 @@ windowSize "0,0,1015,690"
 viewArea "0,0,0,0"
 cachedDiagramExtent "0,0,0,0"
 pageBreakOrigin "0,0"
-lastUid 401,0
+lastUid 548,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
@@ -2776,7 +2781,7 @@ text (MLText
 va (VaSet
 fg "0,0,32768"
 )
-xt "200,200,3200,1400"
+xt "200,200,2100,1200"
 st "
 Text
 "
@@ -3222,7 +3227,7 @@ xt "0,0,18000,5000"
 text (MLText
 va (VaSet
 )
-xt "200,200,3200,1400"
+xt "200,200,2100,1200"
 st "
 Text
 "
@@ -3512,7 +3517,7 @@ tm "BundleNameMgr"
 second (MLText
 va (VaSet
 )
-xt "0,1200,1500,2400"
+xt "0,1200,1000,2200"
 st "()"
 tm "BundleContentsMgr"
 )
@@ -3560,7 +3565,7 @@ ps "TopLeftStrategy"
 text (MLText
 va (VaSet
 )
-xt "0,-1300,18500,-100"
+xt "0,-1300,12500,-300"
 st "g0: FOR i IN 0 TO n GENERATE"
 tm "FrameTitleTextMgr"
 )
@@ -3620,7 +3625,7 @@ ps "TopLeftStrategy"
 text (MLText
 va (VaSet
 )
-xt "0,-1300,11000,-100"
+xt "0,-1300,7300,-300"
 st "b0: BLOCK (guard)"
 tm "FrameTitleTextMgr"
 )
@@ -3805,6 +3810,7 @@ suid 15,0
 usingSuid 1
 emptyRow *111 (LEmptyRow
 )
+uid 404,0
 optionalChildren [
 *112 (RefLabelRowHdr
 )
@@ -4038,6 +4044,7 @@ uid 389,0
 pdm (PhysicalDM
 displayShortBounds 1
 editShortBounds 1
+uid 417,0
 optionalChildren [
 *139 (Sheet
 sheetRow (SheetRow
@@ -4061,22 +4068,26 @@ litem &111
 pos 3
 dimension 20
 )
+uid 419,0
 optionalChildren [
 *141 (MRCItem
 litem &112
 pos 0
 dimension 20
+uid 420,0
 )
 *142 (MRCItem
 litem &113
 pos 1
 dimension 23
+uid 421,0
 )
 *143 (MRCItem
 litem &114
 pos 2
 hidden 1
 dimension 20
+uid 422,0
 )
 *144 (MRCItem
 litem &124
@@ -4177,62 +4188,74 @@ fontColor "0,0,0"
 font "Tahoma,10,0"
 textAngle 90
 )
+uid 423,0
 optionalChildren [
 *159 (MRCItem
 litem &115
 pos 0
 dimension 20
+uid 424,0
 )
 *160 (MRCItem
 litem &117
 pos 1
 dimension 50
+uid 425,0
 )
 *161 (MRCItem
 litem &118
 pos 2
 dimension 100
+uid 426,0
 )
 *162 (MRCItem
 litem &119
 pos 3
 dimension 50
+uid 427,0
 )
 *163 (MRCItem
 litem &120
 pos 4
 dimension 100
+uid 428,0
 )
 *164 (MRCItem
 litem &121
 pos 5
 dimension 100
+uid 429,0
 )
 *165 (MRCItem
 litem &122
 pos 6
 dimension 50
+uid 430,0
 )
 *166 (MRCItem
 litem &123
 pos 7
 dimension 80
+uid 431,0
 )
 ]
 )
 fixedCol 4
 fixedRow 2
 name "Ports"
+uid 418,0
 vaOverrides [
 ]
 )
 ]
 )
+uid 403,0
 )
 genericsCommonDM (CommonDM
 ldm (LogicalDM
 emptyRow *167 (LEmptyRow
 )
+uid 433,0
 optionalChildren [
 *168 (RefLabelRowHdr
 )
@@ -4269,6 +4292,7 @@ tm "GenericEolColHdrMgr"
 pdm (PhysicalDM
 displayShortBounds 1
 editShortBounds 1
+uid 445,0
 optionalChildren [
 *179 (Sheet
 sheetRow (SheetRow
@@ -4292,22 +4316,26 @@ litem &167
 pos 3
 dimension 20
 )
+uid 447,0
 optionalChildren [
 *181 (MRCItem
 litem &168
 pos 0
 dimension 20
+uid 448,0
 )
 *182 (MRCItem
 litem &169
 pos 1
 dimension 23
+uid 449,0
 )
 *183 (MRCItem
 litem &170
 pos 2
 hidden 1
 dimension 20
+uid 450,0
 )
 ]
 )
@@ -4318,52 +4346,62 @@ fontColor "0,0,0"
 font "Tahoma,10,0"
 textAngle 90
 )
+uid 451,0
 optionalChildren [
 *184 (MRCItem
 litem &171
 pos 0
 dimension 20
+uid 452,0
 )
 *185 (MRCItem
 litem &173
 pos 1
 dimension 50
+uid 453,0
 )
 *186 (MRCItem
 litem &174
 pos 2
 dimension 100
+uid 454,0
 )
 *187 (MRCItem
 litem &175
 pos 3
 dimension 100
+uid 455,0
 )
 *188 (MRCItem
 litem &176
 pos 4
 dimension 50
+uid 456,0
 )
 *189 (MRCItem
 litem &177
 pos 5
 dimension 50
+uid 457,0
 )
 *190 (MRCItem
 litem &178
 pos 6
 dimension 80
+uid 458,0
 )
 ]
 )
 fixedCol 3
 fixedRow 2
 name "Ports"
+uid 446,0
 vaOverrides [
 ]
 )
 ]
 )
+uid 432,0
 type 1
 )
 )
