@@ -1,29 +1,12 @@
 version "1.1"
 HDSFlow (HDSFlow
-TaskName "ModelSim Flow"
-bitmap "$HDS_HOME\\resources\\bitmaps\\tools/tool_modelsim.bmp"
+TaskName "QuestaSim Flow"
+bitmap "$HDS_HOME\\resources\\bitmaps\\tools/tool_questasim.bmp"
 hasBitmap 1
-tooltip "Generate and run entire ModelSim flow"
+tooltip "Generate and run entire QuestaSim flow"
 taskSettings [
-"InternalTaskSetting"
-(SettingsMap
-settingsMap [
-"flowSettingsDlg"
-""
-"taskInvocationScript"
-""
-]
-)
 ]
 PreferedTasks [
-(preferedMap
-preferedEnum 0
-preferedSetting "C:\\eda\\MentorGrapics\\ModelSim\\win32"
-)
-(preferedMap
-preferedEnum 2
-preferedSetting "MODEL_SIM"
-)
 ]
 onShortcutBar 1
 onPulldownMenu 1
@@ -44,11 +27,11 @@ onShortcutBar 0
 onPulldownMenu 0
 onToolbar 0
 enabled 1
-hierDepth 1
+hierDepth 2
 reffedTaskName "USER:Generate"
 )
 (HDSTaskRef
-TaskName "ModelSim Compile"
+TaskName "QuestaSim Compile"
 bitmap ""
 hasBitmap 1
 tooltip ""
@@ -61,10 +44,10 @@ onPulldownMenu 0
 onToolbar 0
 enabled 1
 hierDepth 1
-reffedTaskName "USER:ModelSim Compile"
+reffedTaskName "USER:QuestaSim Compile"
 )
 (HDSTaskRef
-TaskName "ModelSim Simulate"
+TaskName "QuestaSim Simulate"
 bitmap ""
 hasBitmap 1
 tooltip ""
@@ -77,7 +60,7 @@ onPulldownMenu 0
 onToolbar 0
 enabled 1
 hierDepth 3
-reffedTaskName "USER:ModelSim Simulate"
+reffedTaskName "USER:QuestaSim Simulate"
 )
 ]
 )
