@@ -77,6 +77,7 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
+
 value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\ELN_CURSOR_JCHE_THJCT\\Prefs\\..\\Cursor\\hdl"
 )
 (vvPair
@@ -94,6 +95,7 @@ value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.El
 (vvPair
 variable "SourceDir"
 value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\ELN_CURSOR_JCHE_THJCT\\Prefs\\..\\Cursor\\hds"
+
 )
 (vvPair
 variable "appl"
@@ -113,11 +115,13 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
+
 value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\ELN_CURSOR_JCHE_THJCT\\Prefs\\..\\Cursor\\hds\\@compteur_nbit"
 )
 (vvPair
 variable "d_logical"
 value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\ELN_CURSOR_JCHE_THJCT\\Prefs\\..\\Cursor\\hds\\Compteur_nbit"
+
 )
 (vvPair
 variable "date"
@@ -157,7 +161,7 @@ value "struct"
 )
 (vvPair
 variable "graphical_source_author"
-value "theo"
+value "Julie"
 )
 (vvPair
 variable "graphical_source_date"
@@ -169,11 +173,13 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "LAPTOP-I9J0I4RD"
+value "LAPTOP-J400VU4F"
 )
 (vvPair
 variable "graphical_source_time"
+
 value "09:30:12"
+
 )
 (vvPair
 variable "group"
@@ -181,7 +187,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "LAPTOP-I9J0I4RD"
+value "LAPTOP-J400VU4F"
 )
 (vvPair
 variable "language"
@@ -205,19 +211,21 @@ value "Compteur_nbit"
 )
 (vvPair
 variable "month"
-value "déc."
+value "dÃ©c."
 )
 (vvPair
 variable "month_long"
-value "décembre"
+value "dÃ©cembre"
 )
 (vvPair
 variable "p"
+
 value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\ELN_CURSOR_JCHE_THJCT\\Prefs\\..\\Cursor\\hds\\@compteur_nbit\\struct.bd"
 )
 (vvPair
 variable "p_logical"
 value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\ELN_CURSOR_JCHE_THJCT\\Prefs\\..\\Cursor\\hds\\Compteur_nbit\\struct.bd"
+
 )
 (vvPair
 variable "package_name"
@@ -245,7 +253,9 @@ value "struct"
 )
 (vvPair
 variable "time"
+
 value "09:30:12"
+
 )
 (vvPair
 variable "unit"
@@ -253,7 +263,7 @@ value "Compteur_nbit"
 )
 (vvPair
 variable "user"
-value "theo"
+value "Julie"
 )
 (vvPair
 variable "version"
@@ -2943,12 +2953,14 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
+
 windowSize "0,-1080,1921,-24"
 viewArea "11000,-18200,136282,48400"
 cachedDiagramExtent "-8800,0,147100,49000"
 hasePageBreakOrigin 1
 pageBreakOrigin "-10000,0"
 lastUid 1005,0
+
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
