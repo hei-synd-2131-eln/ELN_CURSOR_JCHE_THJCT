@@ -4061,22 +4061,18 @@ theList "Design Units"
 columns [
 (TreeListVPData_Column
 name "Type"
-displayName ""
 width 140
 )
 (TreeListVPData_Column
 name "Extends"
-displayName ""
 width 100
 )
 (TreeListVPData_Column
 name "Language"
-displayName ""
 width 100
 )
 (TreeListVPData_Column
 name "Time Stamp"
-displayName ""
 width 120
 )
 ]
@@ -5111,6 +5107,8 @@ activeSidePanelTab 0
 activeLibraryTab 1
 sidePanelSize 280
 showUnixHiddenFiles 0
+componentBrowserXpos 985
+componentBrowserYpos 232
 componentBrowserWidth 300
 componentBrowserHeight 340
 componentBrowserLibraryNames [
