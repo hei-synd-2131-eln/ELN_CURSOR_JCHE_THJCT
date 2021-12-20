@@ -29,7 +29,7 @@ BEGIN
   begin
 
   
-  for i in 0 to 200 loop
+  for i in 0 to 10 loop
   report "i=" & integer'image(i);
   
   encoderA_Sync <= '1';
@@ -41,6 +41,22 @@ BEGIN
   encoderB_Sync <= '0';
   wait for 5*clockPeriod;
   end loop;
+  
+  wait for 20*clockPeriod;
+  
+  for i in 0 to 10 loop
+  report "i=" & integer'image(i);
+  
+  encoderB_Sync <= '1';
+  wait for 5*clockPeriod;
+  encoderA_Sync <= '1';
+  wait for 5*clockPeriod;
+  encoderB_Sync <= '0';
+  wait for 5*clockPeriod;
+  encoderA_Sync <= '0';
+  wait for 5*clockPeriod;
+  end loop;
+  
   wait;
 
 end process;

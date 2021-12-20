@@ -48,7 +48,7 @@ settingsMap [
 "excludePSL"
 "0"
 "exepath"
-"$MODELSIM_HOME"
+"%task_ModelSimPath"
 "logFile"
 ""
 "logicalLib"

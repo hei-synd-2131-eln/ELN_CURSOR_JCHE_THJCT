@@ -18,11 +18,11 @@ settingsMap [
 PreferedTasks [
 (preferedMap
 preferedEnum 0
-preferedSetting "$MODELSIM_HOME"
+preferedSetting "C:\\eda\\MentorGrapics\\ModelSim\\win32"
 )
 (preferedMap
 preferedEnum 2
-preferedSetting "ModelSim"
+preferedSetting "MODEL_SIM"
 )
 ]
 onShortcutBar 1
