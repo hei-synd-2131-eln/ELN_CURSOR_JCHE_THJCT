@@ -78,7 +78,7 @@ settingsMap [
 "excludePSL"
 "0"
 "exepath"
-"%task_ModelSimPath"
+"$MODELSIM_HOME"
 "minimumSimSetting"
 "0"
 "saveReplayScript"

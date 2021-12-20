@@ -7,15 +7,6 @@ tooltip "Generate and runs the entire Precision Synthesis flow"
 taskSettings [
 ]
 PreferedTasks [
-
-(preferedMap
-preferedEnum 1
-)
-(preferedMap
-preferedEnum 3
-preferedSetting "Precision"
-)
-
 ]
 onShortcutBar 1
 onPulldownMenu 1

@@ -271,6 +271,11 @@ simulator "ModelSim 5.1"
 tempDirectory "$TEMP"
 projectPaths [
 "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\ELN_CURSOR_JCHE_THJCT\\Prefs\\hds.hdp"
+"C:\\eda\\ELN_CURSOR_JCHE_THJCT_VersionThéo\\ELN_CURSOR_JCHE_THJCT\\Prefs\\hds.hdp"
+"C:\\eda\\ELN_CURSOR_JCHE_THJCT_VersionTheo\\ELN_CURSOR_JCHE_THJCT\\Prefs\\hds.hdp"
+"C:\\Users\\remi\\Downloads\\ELN_CURSOR_JCHE_THJCT_VersionTheo\\ELN_CURSOR_JCHE_THJCT_VersionTheo\\ELN_CURSOR_JCHE_THJCT\\Prefs\\hds.hdp"
+"C:\\tmp\\cursor_theo\\ELN_CURSOR_JCHE_THJCT\\Prefs\\hds.hdp"
+"C:\\eda\\ELN_CURSOR_JCHE_THJCT\\Prefs\\hds.hdp"
 ]
 libMappingsRootDir ""
 teamLibMappingsRootDir ""
@@ -292,7 +297,91 @@ exportedDirectories [
 exportStdIncludeRefs 1
 exportStdPackageRefs 1
 )
+printerName "NPI417449 (HP LaserJet Pro M12w)"
 pageSizes [
+(PageSizeInfo
+name "Lettre US (215,9 x 279,4 mm)"
+width 783
+height 1013
+)
+(PageSizeInfo
+name "Legal US"
+type 5
+width 783
+height 1290
+)
+(PageSizeInfo
+name "Exécutif US (18,42 x 26,67 cm)"
+type 7
+width 667
+height 967
+)
+(PageSizeInfo
+name "A4"
+type 9
+width 761
+height 1077
+)
+(PageSizeInfo
+name "A5"
+type 11
+width 536
+height 761
+)
+(PageSizeInfo
+name "B5 (JIS)"
+type 13
+width 660
+height 932
+)
+(PageSizeInfo
+name "Enveloppe US n° 10"
+type 20
+width 379
+height 875
+)
+(PageSizeInfo
+name "Enveloppe DL"
+type 27
+width 399
+height 798
+)
+(PageSizeInfo
+name "Enveloppe C5"
+type 28
+width 587
+height 830
+)
+(PageSizeInfo
+name "Enveloppe B5"
+type 34
+width 638
+height 907
+)
+(PageSizeInfo
+name "Enveloppe US Monarch"
+type 37
+width 357
+height 691
+)
+(PageSizeInfo
+name "Carte postale japonaise"
+type 43
+width 362
+height 536
+)
+(PageSizeInfo
+name "Executive (JIS)"
+type 119
+width 783
+height 1196
+)
+(PageSizeInfo
+name "16 K - 197 x 273 mm"
+type 120
+width 714
+height 990
+)
 ]
 exportPageSetupInfo (PageSetupInfo
 ptrCmd "FrameMaker MIF"
@@ -453,6 +542,7 @@ tasksMenubarOrder [
 "USER:Generate"
 ]
 tasksShortcutbarOrder [
+"Setup DesignChecker"
 "\"USER:Altera MegaWizard\""
 "\"USER:Altera SOPC Builder\""
 "\"USER:C/C++ Wrapper Generator\""
@@ -703,13 +793,11 @@ second ""
 first "onShortcutBar"
 second "true"
 )
-
 (pair
-first "Enscript"
-second "$HDS_HOME/resources/misc/printText.pl  \"%(p)\" -printer %(P) --copies %(copies) -orientation %(orientation) -paper %(paper) -dest  %(destination)"
+first "onToolbar"
+second ""
 )
 ]
-
 )
 (TaskPref
 taskName "\"USER:LeonardoSpectrum Flow\""
@@ -729,40 +817,37 @@ second ""
 (pair
 first "onShortcutBar"
 second "true"
-
 )
 (pair
-first "FrameMaker MIF"
-second "$HDS_HOME/resources/misc/export_tgc.pl mif  \"%(psfile_p)\" \"%(temp_d)\" %(library) %(unit) %(view)"
+first "onToolbar"
+second ""
 )
-
+]
+)
 (TaskPref
 taskName "\"USER:LeonardoSpectrum Flow\" USER:Generate"
 taskPrefStringMap [
 (pair
-first "GIF"
-second "$HDS_HOME/resources/misc/export_tgc.pl gif  \"%(psfile_p)\" \"%(temp_d)\" %(library) %(unit) %(view)"
+first "enabled"
+second ""
 )
 (pair
-
 first "hierLevel"
 second "2"
-
 )
 (pair
-first "Windows Bitmap BMP"
-second "$HDS_HOME/resources/misc/export_tgc.pl bmp  \"%(psfile_p)\" \"%(temp_d)\" %(library) %(unit) %(view)"
+first "onPulldownMenu"
+second ""
 )
 (pair
-first "WindowsEnhancedMetaFile EMF"
-second "$HDS_HOME/resources/misc/export_tgc.pl emf  \"%(psfile_p)\" \"%(temp_d)\" %(library) %(unit) %(view)"
+first "onShortcutBar"
+second ""
 )
 (pair
-first "WindowsMetaFile WMF"
-second "$HDS_HOME/resources/misc/export_tgc.pl wmf  \"%(psfile_p)\" \"%(temp_d)\" %(library) %(unit) %(view)"
+first "onToolbar"
+second ""
 )
 ]
-
 )
 (TaskPref
 taskName "\"USER:LeonardoSpectrum Flow\" USER:LeonardoSpectrum"
@@ -771,99 +856,82 @@ taskPrefStringMap [
 first "enabled"
 second ""
 )
-
 (pair
-first "CGM Binary"
-second "$HDS_HOME/resources/misc/export_tgc.pl cgm  \"%(psfile_p)\" \"%(temp_d)\" %(library) %(unit) %(view)"
+first "hierLevel"
+second "1"
 )
 (pair
-first "FrameMaker MIF"
-second "$HDS_HOME/resources/misc/export_tgc.pl mif  \"%(psfile_p)\" \"%(temp_d)\" %(library) %(unit) %(view)"
+first "onPulldownMenu"
+second ""
 )
 (pair
-first "GIF"
-second "$HDS_HOME/resources/misc/export_tgc.pl gif  \"%(psfile_p)\" \"%(temp_d)\" %(library) %(unit) %(view)"
+first "onShortcutBar"
+second ""
 )
 (pair
-first "TIFF"
-second "$HDS_HOME/resources/misc/export_tgc.pl tiff  \"%(psfile_p)\" \"%(temp_d)\" %(library) %(unit) %(view)"
+first "onToolbar"
+second ""
+)
+]
 )
 (TaskPref
 taskName "\"USER:Microsemi Libero\""
 taskPrefStringMap [
-
 (pair
-first "WindowsMetaFile WMF"
-second "$HDS_HOME/resources/misc/export_tgc.pl wmf  \"%(psfile_p)\" \"%(temp_d)\" %(library) %(unit) %(view)"
+first "enabled"
+second ""
 )
-]
-unixEditorCmdMappings [
 (pair
 first "hierLevel"
 second "1"
-
 )
 (pair
-first "Emacs"
-second "emacs +%(l) '%(p)'"
+first "onPulldownMenu"
+second ""
 )
 (pair
 first "onShortcutBar"
 second "true"
-
 )
 (pair
-first "NEdit"
-second "nedit +%(l) '%(p)'"
+first "onToolbar"
+second ""
 )
-(pair
-first "NEdit (using server)"
-second "nc -noask  +%(l) '%(p)'"
+]
 )
 (TaskPref
 taskName "\"USER:ModelSim Compile\""
 taskPrefStringMap [
-
 (pair
-first "Textedit"
-second "textedit '%(p)'"
+first "enabled"
+second ""
 )
 (pair
-
 first "hierLevel"
 second "1"
-
 )
 (pair
-first "XEmacs (using server)"
-second "gnuclient +%(l) '%(p)'"
+first "onPulldownMenu"
+second ""
 )
 (pair
 first "onShortcutBar"
 second "true"
-
 )
 (pair
-first "vi"
-second "cd '%(d)'; xterm -T '%(p)' -n '%(f)' -e vi +%(l) '%(f)'"
+first "onToolbar"
+second ""
 )
 ]
-unixViewerCmdMappings [
-(pair
-first "Dtpad"
-second "dtpad '%(p)' -viewonly"
 )
-
 (TaskPref
 taskName "\"USER:ModelSim Flow\""
 taskPrefStringMap [
-
 (pair
-first "Emacs"
-second "emacs +%(l) '%(p)'"
+first "enabled"
+second ""
 )
 (pair
-
 first "hierLevel"
 second "1"
 )
@@ -884,175 +952,78 @@ second "true"
 (TaskPref
 taskName "\"USER:ModelSim Flow\" \"USER:ModelSim Compile\""
 taskPrefStringMap [
-
-
 (pair
-first "Emacs"
-second "runemacs.exe +%(l) \"%(p)\""
+first "enabled"
+second ""
 )
 (pair
-first "Emacs (using server)"
-second "gnuclientw.exe +%(l) \"%(p)\""
+first "hierLevel"
+second "1"
 )
 (pair
-first "HDL Turbo Writer"
-second "TWriter.exe \"%(p)\" -G%(l)"
+first "onPulldownMenu"
+second ""
 )
 (pair
-first "Notepad"
-second "notepad.exe \"%(p)\""
+first "onShortcutBar"
+second ""
 )
 (pair
-first "Notepad++"
-second "\"C:\\Program Files (x86)\\Notepad++\\notepad++.exe\" \"%(p)\""
+first "onToolbar"
+second ""
 )
-
+]
+)
 (TaskPref
 taskName "\"USER:ModelSim Flow\" \"USER:ModelSim Simulate\""
 taskPrefStringMap [
-
 (pair
-first "Textpad 3.2"
-second "txtpad32.exe \"%(p)(%(l))\""
+first "enabled"
+second ""
 )
 (pair
 first "hierLevel"
 second "3"
-
 )
 (pair
-first "UltraEdit"
-second "uedit32.exe \"%(p)/%(l)\""
+first "onPulldownMenu"
+second ""
 )
 (pair
-first "WinEdit"
-second "WinEdit.exe \"%(p)\" -# %(l)"
+first "onShortcutBar"
+second ""
 )
 (pair
-first "Wordpad"
-second "wordpad.exe \"%(p)\""
+first "onToolbar"
+second ""
 )
 ]
-win32ViewerCmdMappings [
-(pair
-first "Emacs"
-second "runemacs.exe +%(l) \"%(p)\""
 )
 (TaskPref
 taskName "\"USER:ModelSim Flow\" USER:Generate"
 taskPrefStringMap [
-
 (pair
-first "HDL Turbo Writer"
-second "TWriter.exe \"%(p)\" -XBufSetReadOnly -G%(l)"
-)
-(pair
-first "Notepad"
-second "notepad.exe \"%(p)\""
+first "enabled"
+second ""
 )
 (pair
-first "Textpad 3.2"
-second "txtpad32.exe -r \"%(p)(%(l))\""
+first "hierLevel"
+second "1"
 )
 (pair
-first "Textpad 4.0"
-second "textpad.exe -r \"%(p)(%(l))\""
+first "onPulldownMenu"
+second ""
 )
 (pair
-first "UltraEdit"
-second "uedit32.exe \"%(p)/%(l)\" /r"
+first "onShortcutBar"
+second ""
+)
+(pair
+first "onToolbar"
+second ""
 )
 ]
-defaultTextPrintingCmd "Enscript"
-win32DefaultEditor "Notepad++"
-win32DefaultViewer "Builtin"
-unixDefaultEditor "Builtin"
-unixDefaultViewer "Builtin"
-defaultLanguage 11
-defaultVhdlDialect 11
-defaultVerilogDialect 5
-verilogSearchPath ""
-syscUserIncPath ""
-cppIncPath ""
-printerCmdString "lp -c"
-tabWidth 3
-vhdlEntityExtension "vhd"
-vhdlArchitectureExtensions [
-"vhd"
-"vhdl"
-"vho"
-]
-verilogArchitectureExtensions [
-"v"
-"vlg"
-"verilog"
-"vo"
-"sv"
-"svh"
-]
-verilogDefaultSaveName "untitled"
-vhdlDefaultSaveName "untitled"
-toolbarVisibility [
-"BdWindow:FormatText"
-"SymbolWindow:FormatText"
-"AsmWindow:FormatText"
-"FcWindow:FormatText"
-"StdWindow:FormatText"
-"BdWindow:CommentGraphics"
-"SymbolWindow:CommentGraphics"
-"AsmWindow:CommentGraphics"
-"StdWindow:CommentGraphics"
-"FcWindow:CommentGraphics"
-"BdWindow:Appearance"
-"TabularWindow:Appearance"
-"SymbolWindow:Appearance"
-"AsmWindow:Appearance"
-"StdWindow:Appearance"
-"FcWindow:Appearance"
-"FcWindow:Appearance"
-"StdTabWindow:Appearance"
-"FcTabWindow:Appearance"
-"AsmTabWindow:Appearance"
-"TtTabWindow:Appearance"
-"BdWindow:ArrangeObject"
-"SymbolWindow:ArrangeObject"
-"AsmWindow:ArrangeObject"
-"StdWindow:ArrangeObject"
-"FcWindow:ArrangeObject"
-]
-seperateElseBegincheck 1
-expertUser 0
-userDefinedSimulatorTasks [
-]
-userDefinedSynthesisTasks [
-]
-simulator "ModelSim 5.1"
-tempDirectory "$TEMP"
-projectPaths [
-"C:\\eda\\ELN_CURSOR_JCHE_THJCT\\HDS\\my_project\\my_project.hdp"
-"C:\\eda\\ELN_CURSOR_JCHE_THJCT\\Prefs\\hds.hdp"
-]
-libMappingsRootDir ""
-teamLibMappingsRootDir ""
-defaultUserLibRootDir ""
-projectSetupRootDir ""
-defaultPackages "LIBRARY ieee;
-USE ieee.std_logic_1164.all;
-USE ieee.std_logic_arith.all;
-"
-defaultVerilogPackages ""
-defaultFont "Arial,8,0"
-tableFont "Tahoma,10,0"
-pageSetupInfo (PageSetupInfo
-ptrCmd ""
-toPrinter 1
-exportedDirectories [
-"$HDS_PROJECT_DIR/HTMLExport"
-]
-exportStdIncludeRefs 1
-exportStdPackageRefs 1
 )
-
 (TaskPref
 taskName "\"USER:ModelSim Simulate\""
 taskPrefStringMap [
@@ -1063,31 +1034,20 @@ second ""
 (pair
 first "hierLevel"
 second "3"
-
 )
-(PageSizeInfo
-name "Enveloppe US nÂ° 10"
-type 20
-width 379
-height 875
+(pair
+first "onPulldownMenu"
+second ""
 )
-(PageSizeInfo
-name "Enveloppe DL"
-type 27
-width 399
-height 798
+(pair
+first "onShortcutBar"
+second "true"
 )
-(PageSizeInfo
-name "Enveloppe C5"
-type 28
-width 587
-height 830
+(pair
+first "onToolbar"
+second ""
 )
-(PageSizeInfo
-name "Enveloppe B5"
-type 34
-width 638
-height 907
+]
 )
 (TaskPref
 taskName "\"USER:Precision Synthesis Flow\""
@@ -1095,44 +1055,24 @@ taskPrefStringMap [
 (pair
 first "enabled"
 second ""
-
 )
-(PageSizeInfo
-name "Carte postale japonaise"
-type 43
-width 362
-height 536
+(pair
+first "hierLevel"
+second "1"
 )
-(PageSizeInfo
-name "Executive (JIS)"
-type 119
-width 783
-height 1196
+(pair
+first "onPulldownMenu"
+second "true"
 )
-(PageSizeInfo
-name "16 K - 197 x 273 mm"
-type 120
-width 714
-height 990
+(pair
+first "onShortcutBar"
+second "true"
+)
+(pair
+first "onToolbar"
+second "true"
 )
 ]
-exportPageSetupInfo (PageSetupInfo
-ptrCmd "FrameMaker MIF"
-toPrinter 1
-exportedDirectories [
-"$HDS_PROJECT_DIR/HTMLExport"
-]
-exportStdIncludeRefs 1
-exportStdPackageRefs 1
-)
-exportHTMLPageSetupInfo (PageSetupInfo
-ptrCmd ""
-toPrinter 1
-exportedDirectories [
-"$HDS_PROJECT_DIR/HTMLExport"
-]
-exportStdIncludeRefs 1
-exportStdPackageRefs 1
 )
 (TaskPref
 taskName "\"USER:Precision Synthesis Flow\" \"USER:Precision Synthesis\""
@@ -1140,50 +1080,24 @@ taskPrefStringMap [
 (pair
 first "enabled"
 second ""
-
 )
-customPaperSizeInfo [
-]
-exportImageSizeInfo [
-(StringtoTwoInts
-name "A4 (134mm x 110mm)"
-width 379
-height 313
+(pair
+first "hierLevel"
+second "1"
 )
-(StringtoTwoInts
-name "A4 (134mm x 221mm)"
-width 379
-height 626
+(pair
+first "onPulldownMenu"
+second ""
 )
-(StringtoTwoInts
-name "Letter (5.5\" x 4\")"
-width 396
-height 288
+(pair
+first "onShortcutBar"
+second ""
 )
-(StringtoTwoInts
-name "Letter (5.5\" x 8\")"
-width 396
-height 576
+(pair
+first "onToolbar"
+second ""
 )
 ]
-titleBlockPath "$HDS_TEAM_VER\\title_block.tmpl"
-win32CustomColours (win32CustomColours
-color0 16777215
-color1 16777215
-color2 16777215
-color3 16777215
-color4 16777215
-color5 16777215
-color6 16777215
-color7 16777215
-color8 16777215
-color9 16777215
-color10 16777215
-color11 16777215
-color12 16777215
-color13 16777215
-color14 16777215
-color15 16777215
 )
 (TaskPref
 taskName "\"USER:Precision Synthesis Flow\" USER:Generate"
@@ -1195,101 +1109,48 @@ second ""
 (pair
 first "hierLevel"
 second "2"
-
 )
-teamPrefsPath ""
-remoteSimPath "$HDS_TEAM_VER\\remote"
-mwMVL4 1
-mwVerilogUseSynthesisPragmas 0
-mwVhdlUseBusSlicesChkBox 0
-mwVerilogUseBusSlicesChkBox 0
-vmCheckInDesc ""
-userVariables [
 (pair
-first "task_DesignCompilerPath"
+first "onPulldownMenu"
 second ""
 )
 (pair
-first "task_LeonardoPath"
+first "onShortcutBar"
 second ""
 )
 (pair
-first "task_ModelSimPath"
-second "C:\\eda\\MentorGrapics\\ModelSim\\win32"
+first "onToolbar"
+second ""
+)
+]
 )
 (TaskPref
 taskName "\"USER:Precision Synthesis\""
 taskPrefStringMap [
-
 (pair
-first "task_NC-SimPath"
+first "enabled"
 second ""
 )
 (pair
-first "task_PrecisionRTLPath"
+first "hierLevel"
+second "1"
+)
+(pair
+first "onPulldownMenu"
 second ""
 )
 (pair
-
 first "onShortcutBar"
 second "true"
-
 )
 (pair
-first "task_VCSPath"
+first "onToolbar"
 second ""
 )
 ]
-tasksOrder [
-"USER:C/C++ Wrapper Generator"
-"USER:Generate"
-"USER:I/O Design Flow"
-"USER:LeonardoSpectrum"
-"USER:LeonardoSpectrum Flow"
-"USER:ModelSim Compile"
-"USER:ModelSim Flow"
-"USER:ModelSim Simulate"
-"USER:Precision Synthesis"
-"USER:Precision Synthesis Flow"
-"USER:Prepare for Synthesis"
-"USER:QuestaSim Compile"
-"USER:QuestaSim Flow"
-"USER:QuestaSim Simulate"
-"USER:Xilinx Project Navigator"
-]
-tasksToolbarOrder [
-"\"USER:ModelSim Flow\""
-"\"USER:Precision Synthesis Flow\""
-"\"USER:Prepare for Synthesis\""
-"\"USER:QuestaSim Flow\""
-"USER:Generate"
-]
-tasksMenubarOrder [
-"\"USER:ModelSim Flow\""
-"\"USER:Precision Synthesis Flow\""
-"\"USER:QuestaSim Flow\""
-"USER:Generate"
-]
-tasksShortcutbarOrder [
-"Setup DesignChecker"
-"\"USER:C/C++ Wrapper Generator\""
-"\"USER:I/O Design Flow\""
-"\"USER:LeonardoSpectrum Flow\""
-"\"USER:ModelSim Compile\""
-"\"USER:ModelSim Flow\""
-"\"USER:ModelSim Simulate\""
-"\"USER:Precision Synthesis Flow\""
-"\"USER:Precision Synthesis\""
-"\"USER:QuestaSim Compile\""
-"\"USER:QuestaSim Flow\""
-"\"USER:QuestaSim Simulate\""
-"USER:Generate"
-"USER:LeonardoSpectrum"
-]
-taskPreferences [
+)
 (TaskPref
 taskName "\"USER:Precision Synthesis\" \"USER:Precision Synthesis Invoke\""
-
 taskPrefStringMap [
 (pair
 first "enabled"
@@ -1355,7 +1216,7 @@ second ""
 )
 (pair
 first "onShortcutBar"
-second "true"
+second ""
 )
 (pair
 first "onToolbar"
@@ -1365,7 +1226,6 @@ second "true"
 )
 (TaskPref
 taskName "\"USER:Prepare for Synthesis\" \"USER:Concatenate HDL\""
-
 taskPrefStringMap [
 (pair
 first "enabled"
@@ -1374,7 +1234,6 @@ second ""
 (pair
 first "hierLevel"
 second "1"
-
 )
 (pair
 first "onPulldownMenu"
@@ -1391,7 +1250,6 @@ second ""
 ]
 )
 (TaskPref
-
 taskName "\"USER:Prepare for Synthesis\" \"USER:Trim libraries\""
 taskPrefStringMap [
 (pair
@@ -1401,7 +1259,6 @@ second ""
 (pair
 first "hierLevel"
 second "3"
-
 )
 (pair
 first "onPulldownMenu"
@@ -1419,7 +1276,6 @@ second ""
 )
 (TaskPref
 taskName "\"USER:Prepare for Synthesis\" USER:Generate"
-
 taskPrefStringMap [
 (pair
 first "enabled"
@@ -1435,7 +1291,7 @@ second ""
 )
 (pair
 first "onShortcutBar"
-second "true"
+second ""
 )
 (pair
 first "onToolbar"
@@ -1444,9 +1300,7 @@ second ""
 ]
 )
 (TaskPref
-
 taskName "\"USER:Quartus Place and Route\""
-
 taskPrefStringMap [
 (pair
 first "enabled"
@@ -1454,9 +1308,7 @@ second ""
 )
 (pair
 first "hierLevel"
-
 second "3"
-
 )
 (pair
 first "onPulldownMenu"
@@ -1473,9 +1325,7 @@ second ""
 ]
 )
 (TaskPref
-
 taskName "\"USER:Quartus Programmer\""
-
 taskPrefStringMap [
 (pair
 first "enabled"
@@ -1500,9 +1350,7 @@ second ""
 ]
 )
 (TaskPref
-
 taskName "\"USER:Quartus Synthesis Flow\""
-
 taskPrefStringMap [
 (pair
 first "enabled"
@@ -1527,9 +1375,7 @@ second ""
 ]
 )
 (TaskPref
-
 taskName "\"USER:Quartus Synthesis Flow\" \"USER:Quartus Synthesis\""
-
 taskPrefStringMap [
 (pair
 first "enabled"
@@ -1541,22 +1387,20 @@ second "1"
 )
 (pair
 first "onPulldownMenu"
-second "true"
+second ""
 )
 (pair
 first "onShortcutBar"
-second "true"
+second ""
 )
 (pair
 first "onToolbar"
-second "true"
+second ""
 )
 ]
 )
 (TaskPref
-
 taskName "\"USER:Quartus Synthesis Flow\" USER:Generate"
-
 taskPrefStringMap [
 (pair
 first "enabled"
@@ -1565,7 +1409,6 @@ second ""
 (pair
 first "hierLevel"
 second "2"
-
 )
 (pair
 first "onPulldownMenu"
@@ -1583,7 +1426,6 @@ second ""
 )
 (TaskPref
 taskName "\"USER:Quartus Synthesis\""
-
 taskPrefStringMap [
 (pair
 first "enabled"
@@ -1591,7 +1433,7 @@ second ""
 )
 (pair
 first "hierLevel"
-second "3"
+second "1"
 )
 (pair
 first "onPulldownMenu"
@@ -1609,7 +1451,6 @@ second ""
 )
 (TaskPref
 taskName "\"USER:Quartus Synthesis\" \"USER:Quartus Synthesis Invoke\""
-
 taskPrefStringMap [
 (pair
 first "enabled"
@@ -1635,7 +1476,6 @@ second ""
 )
 (TaskPref
 taskName "\"USER:Quartus Synthesis\" \"USER:Quartus Synthesis Prepare Data\""
-
 taskPrefStringMap [
 (pair
 first "enabled"
@@ -1643,7 +1483,7 @@ second ""
 )
 (pair
 first "hierLevel"
-second "3"
+second "1"
 )
 (pair
 first "onPulldownMenu"
@@ -1651,7 +1491,7 @@ second ""
 )
 (pair
 first "onShortcutBar"
-second "true"
+second ""
 )
 (pair
 first "onToolbar"
@@ -1672,7 +1512,7 @@ second "1"
 )
 (pair
 first "onPulldownMenu"
-second "true"
+second ""
 )
 (pair
 first "onShortcutBar"
@@ -1680,13 +1520,12 @@ second "true"
 )
 (pair
 first "onToolbar"
-second "true"
+second ""
 )
 ]
 )
 (TaskPref
 taskName "\"USER:QuestaSim Flow\""
-
 taskPrefStringMap [
 (pair
 first "enabled"
@@ -1720,7 +1559,6 @@ second ""
 (pair
 first "hierLevel"
 second "1"
-
 )
 (pair
 first "onPulldownMenu"
@@ -1738,7 +1576,6 @@ second ""
 )
 (TaskPref
 taskName "\"USER:QuestaSim Flow\" \"USER:QuestaSim Simulate\""
-
 taskPrefStringMap [
 (pair
 first "enabled"
@@ -1754,7 +1591,7 @@ second ""
 )
 (pair
 first "onShortcutBar"
-second "true"
+second ""
 )
 (pair
 first "onToolbar"
@@ -1789,58 +1626,6 @@ second ""
 )
 (TaskPref
 taskName "\"USER:QuestaSim Simulate\""
-
-taskPrefStringMap [
-(pair
-first "enabled"
-second ""
-)
-(pair
-first "hierLevel"
-second "1"
-)
-(pair
-first "onPulldownMenu"
-second ""
-)
-(pair
-first "onShortcutBar"
-second "true"
-)
-(pair
-first "onToolbar"
-second ""
-)
-]
-)
-(TaskPref
-taskName "\"USER:Xilinx CORE Generator\""
-taskPrefStringMap [
-(pair
-first "enabled"
-second ""
-)
-(pair
-first "hierLevel"
-second "1"
-)
-(pair
-first "onPulldownMenu"
-second ""
-)
-(pair
-first "onShortcutBar"
-second "true"
-)
-(pair
-first "onToolbar"
-second "true"
-)
-]
-)
-(TaskPref
-taskName "\"USER:Xilinx Import\""
-
 taskPrefStringMap [
 (pair
 first "enabled"
@@ -1865,7 +1650,56 @@ second ""
 ]
 )
 (TaskPref
-
+taskName "\"USER:Xilinx CORE Generator\""
+taskPrefStringMap [
+(pair
+first "enabled"
+second ""
+)
+(pair
+first "hierLevel"
+second "3"
+)
+(pair
+first "onPulldownMenu"
+second ""
+)
+(pair
+first "onShortcutBar"
+second "true"
+)
+(pair
+first "onToolbar"
+second ""
+)
+]
+)
+(TaskPref
+taskName "\"USER:Xilinx Import\""
+taskPrefStringMap [
+(pair
+first "enabled"
+second ""
+)
+(pair
+first "hierLevel"
+second "3"
+)
+(pair
+first "onPulldownMenu"
+second ""
+)
+(pair
+first "onShortcutBar"
+second "true"
+)
+(pair
+first "onToolbar"
+second ""
+)
+]
+)
+(TaskPref
 taskName "\"USER:Xilinx Place and Route\""
 taskPrefStringMap [
 (pair
@@ -1892,7 +1726,6 @@ second ""
 )
 (TaskPref
 taskName "\"USER:Xilinx Platform Studio\""
-
 taskPrefStringMap [
 (pair
 first "enabled"
@@ -1901,7 +1734,6 @@ second ""
 (pair
 first "hierLevel"
 second "3"
-
 )
 (pair
 first "onPulldownMenu"
@@ -1934,7 +1766,7 @@ second ""
 )
 (pair
 first "onShortcutBar"
-second "true"
+second ""
 )
 (pair
 first "onToolbar"
@@ -1959,7 +1791,7 @@ second ""
 )
 (pair
 first "onShortcutBar"
-second "true"
+second ""
 )
 (pair
 first "onToolbar"
@@ -2059,7 +1891,7 @@ second ""
 )
 (pair
 first "onShortcutBar"
-second "true"
+second ""
 )
 (pair
 first "onToolbar"
@@ -2119,7 +1951,6 @@ second ""
 )
 (TaskPref
 taskName "\"USER:Xilinx Synthesis Tool\" \"USER:XST Prepare Data\""
-
 taskPrefStringMap [
 (pair
 first "enabled"
@@ -2127,7 +1958,7 @@ second ""
 )
 (pair
 first "hierLevel"
-second "3"
+second "1"
 )
 (pair
 first "onPulldownMenu"
@@ -2156,7 +1987,7 @@ second "1"
 )
 (pair
 first "onPulldownMenu"
-second "true"
+second ""
 )
 (pair
 first "onShortcutBar"
@@ -2164,7 +1995,7 @@ second "true"
 )
 (pair
 first "onToolbar"
-second "true"
+second ""
 )
 ]
 )
@@ -2185,7 +2016,7 @@ second ""
 )
 (pair
 first "onShortcutBar"
-second "true"
+second ""
 )
 (pair
 first "onToolbar"
@@ -2195,7 +2026,6 @@ second ""
 )
 (TaskPref
 taskName "\"USER:Xilinx Vivado Flow\" USER:Generate"
-
 taskPrefStringMap [
 (pair
 first "enabled"
@@ -2204,7 +2034,6 @@ second ""
 (pair
 first "hierLevel"
 second "2"
-
 )
 (pair
 first "onPulldownMenu"
@@ -2255,137 +2084,18 @@ second ""
 (pair
 first "hierLevel"
 second "1"
-
 )
-(GenerationPreferences
-automaticTypeConversion 0
-genPackages 1
-genDependants 0
-verilogSpecViewHeaderString "// Module %(library).%(unit).%(view)
-//
-// Created:
-//          by - %(graphical_source_author).%(graphical_source_group) (%(graphical_source_host))
-//          at - %(graphical_source_time) %(graphical_source_date)
-//
-// Generated by Mentor Graphics' HDL Designer(TM) %(version)
-//
-%(moduleBody)
-// ### Please start your Verilog code here ### 
-
-endmodule"
-vhdlConfigsName "%(unit)_%(view)_config"
-vhdlConfigsFileNameTemplate "%(config)"
-vhdlConfigsNameTemplate "%(unit)_%(view)_config"
-separateEntity 1
+(pair
+first "onPulldownMenu"
+second ""
 )
 (pair
 first "onShortcutBar"
 second "true"
-
 )
-(DMPreferences
-version "1.1"
-)
-(CustomizeUserPreferences
-version "1.0"
-FileTypes [
-(FileTypeState
-Extension "c"
-Description "C Source File"
-Bitmap "$HDS_HOME\\resources\\bitmaps\\types\\c_source.bmp"
-DefaultAction "Open"
-Actions [
-(ActionState
-Name "New"
-Tool "<Default Text Editor>"
-Arguments ""
-)
-(ActionState
-Name "Open"
-Tool "<Default Text Editor>"
-Arguments ""
-)
-(ActionState
-Name "Generate"
-Tool "USER:C/C++ Wrapper Generator"
-Arguments ""
-)
-]
-)
-(FileTypeState
-Extension "cpp"
-Description "C++ Source File"
-Bitmap "$HDS_HOME\\resources\\bitmaps\\types\\cpp_source.bmp"
-DefaultAction "Open"
-Actions [
-(ActionState
-Name "New"
-Tool "<Default Text Editor>"
-Arguments ""
-)
-(ActionState
-Name "Open"
-Tool "<Default Text Editor>"
-Arguments ""
-)
-(ActionState
-Name "Generate"
-Tool "USER:C/C++ Wrapper Generator"
-Arguments ""
-)
-]
-)
-(FileTypeState
-Extension "xdb"
-Description "Mentor Graphics Binary Synthesis File"
-Bitmap "$HDS_HOME\\resources\\bitmaps\\types\\xdb.bmp"
-DefaultAction "Open"
-Actions [
-(ActionState
-Name "New"
-Tool "<Default Text Editor>"
-Arguments ""
-)
-(ActionState
-Name "Open"
-Tool "None"
-Arguments ""
-)
-]
-)
-(FileTypeState
-Extension "sdf"
-Description "Standard Delay Format File"
-Bitmap "$HDS_HOME\\resources\\bitmaps\\types\\sdf.bmp"
-DefaultAction "Open"
-Actions [
-(ActionState
-Name "New"
-Tool "<Default Text Editor>"
-Arguments ""
-)
-(ActionState
-Name "Open"
-Tool "<Default Text Editor>"
-Arguments ""
-)
-]
-)
-(FileTypeState
-Extension "mif"
-Description "Memory Initialization File"
-Bitmap "$HDS_HOME\\resources\\bitmaps\\types\\mif.bmp"
-DefaultAction "Open"
-Actions [
-(ActionState
-Name "New"
-Tool "<Default Text Editor>"
-Arguments ""
-)
-(ActionState
-Name "Open"
-Tool "<Default Text Editor>"
-Arguments ""
+(pair
+first "onToolbar"
+second ""
 )
 ]
 )
@@ -2399,25 +2109,18 @@ second ""
 (pair
 first "hierLevel"
 second "1"
-
 )
-]
+(pair
+first "onPulldownMenu"
+second ""
 )
-(FileTypeState
-Extension "sdc"
-Description "Synopsys Design Constraint File"
-Bitmap "$HDS_HOME\\resources\\bitmaps\\types\\sdc.bmp"
-DefaultAction "Open"
-Actions [
-(ActionState
-Name "New"
-Tool "<Default Text Editor>"
-Arguments ""
+(pair
+first "onShortcutBar"
+second ""
 )
-(ActionState
-Name "Open"
-Tool "<Default Text Editor>"
-Arguments ""
+(pair
+first "onToolbar"
+second ""
 )
 ]
 )
@@ -2427,27 +2130,19 @@ taskPrefStringMap [
 (pair
 first "enabled"
 second ""
-
 )
-(ActionState
-Name "Open"
-Tool "<Default Text Editor>"
-Arguments ""
+(pair
+first "hierLevel"
+second "3"
 )
-]
+(pair
+first "onPulldownMenu"
+second ""
 )
-(FileTypeState
-Extension "rep"
-Description "Report File"
-Bitmap "$HDS_HOME\\resources\\bitmaps\\types\\rep.bmp"
-DefaultAction "Open"
-Actions [
-(ActionState
-Name "New"
-Tool "<Default Text Editor>"
-Arguments ""
+(pair
+first "onShortcutBar"
+second ""
 )
-
 (pair
 first "onToolbar"
 second ""
@@ -2464,8 +2159,9 @@ hdsWorkspaceLocation ""
 relativeLibraryRootDir ""
 vmLabelLatestDontAskAgain 0
 vmLabelWorkspaceDontAskAgain 0
-logWindowGeometry "600x200-896+52"
-diagramBrowserTabNo 1
+logWindowGeometry "600x200-1510+78"
+diagramBrowserTabNo 0
+showContentFirstTime 0
 )
 (GenerationPreferences
 automaticTypeConversion 0
@@ -2696,7 +2392,6 @@ Name "New"
 Tool "<Default Text Editor>"
 Arguments ""
 )
-
 (ActionState
 Name "Open"
 Tool "<Default Text Editor>"
@@ -2705,7 +2400,6 @@ Arguments ""
 ]
 )
 (FileTypeState
-
 Extension "dly"
 Description "Delay Report"
 Bitmap "$HDS_HOME\\resources\\bitmaps\\types\\rep.bmp"
@@ -2724,7 +2418,6 @@ Arguments ""
 ]
 )
 (FileTypeState
-
 Extension "syr"
 Description "Xilinx Synthesis Report"
 Bitmap "$HDS_HOME\\resources\\bitmaps\\types\\rep.bmp"
@@ -2743,7 +2436,6 @@ Arguments ""
 ]
 )
 (FileTypeState
-
 Extension "par"
 Description "Xilinx Place and Route Report"
 Bitmap "$HDS_HOME\\resources\\bitmaps\\types\\rep.bmp"
@@ -3058,18 +2750,10 @@ Arguments ""
 Name "Open"
 Tool "<Default Text Editor>"
 Arguments ""
-
 )
-(FileTypeState
-Extension "ngc"
-Description "Xilinx Netlist File"
-Bitmap "$HDS_HOME\\resources\\bitmaps\\types\\synthesis.bmp"
-DefaultAction ""
-Actions [
 ]
 )
 (FileTypeState
-
 Extension "qws"
 Description "Quartus Workspace"
 Bitmap "$HDS_HOME\\resources\\bitmaps\\types\\quartus_synthesis.bmp"
@@ -3090,7 +2774,6 @@ Arguments ""
 (FileTypeState
 Extension "args"
 Description "Quartus Arguments"
-
 Bitmap "$HDS_HOME\\resources\\bitmaps\\types\\quartus_synthesis.bmp"
 DefaultAction "Open"
 Actions [
@@ -3107,11 +2790,9 @@ Arguments ""
 ]
 )
 (FileTypeState
-
 Extension "rpt"
 Description "Quartus Report File"
 Bitmap "$HDS_HOME\\resources\\bitmaps\\types\\rep.bmp"
-
 DefaultAction "Open"
 Actions [
 (ActionState
@@ -3127,7 +2808,6 @@ Arguments ""
 ]
 )
 (FileTypeState
-
 Extension "summary"
 Description "Quartus Summary File"
 Bitmap "$HDS_HOME\\resources\\bitmaps\\types\\rep.bmp"
@@ -3146,7 +2826,6 @@ Arguments ""
 ]
 )
 (FileTypeState
-
 Extension "eqn"
 Description "Quartus Equation File"
 Bitmap "$HDS_HOME\\resources\\bitmaps\\types\\text.bmp"
@@ -3165,7 +2844,6 @@ Arguments ""
 ]
 )
 (FileTypeState
-
 Extension "pin"
 Description "Quartus Pin Information File"
 Bitmap "$HDS_HOME\\resources\\bitmaps\\types\\text.bmp"
@@ -3184,7 +2862,6 @@ Arguments ""
 ]
 )
 (FileTypeState
-
 Extension "vqm"
 Description "Quartus Verilog Mapping File"
 Bitmap "$HDS_HOME\\resources\\bitmaps\\types\\vqm.bmp"
@@ -3203,7 +2880,6 @@ Arguments ""
 ]
 )
 (FileTypeState
-
 Extension "sdo"
 Description "Standard Delay File"
 Bitmap "$HDS_HOME\\resources\\bitmaps\\types\\sdf.bmp"
@@ -3222,7 +2898,6 @@ Arguments ""
 ]
 )
 (FileTypeState
-
 Extension "xrf"
 Description "Cross Reference File"
 Bitmap "$HDS_HOME\\resources\\bitmaps\\types\\text.bmp"
@@ -3241,7 +2916,6 @@ Arguments ""
 ]
 )
 (FileTypeState
-
 Extension "sof"
 Description "Quartus Programming File"
 Bitmap "$HDS_HOME\\resources\\bitmaps\\types\\quartus_programmer.bmp"
@@ -3256,7 +2930,6 @@ Bitmap "$HDS_HOME\\resources\\bitmaps\\types\\quartus_programmer.bmp"
 DefaultAction ""
 Actions [
 ]
-
 )
 (FileTypeState
 Extension "rbf"
@@ -3267,7 +2940,6 @@ Actions [
 ]
 )
 (FileTypeState
-
 Extension "ttf"
 Description "Quartus Text Tabular Format Programming File"
 Bitmap "$HDS_HOME\\resources\\bitmaps\\types\\quartus_programmer.bmp"
@@ -3286,7 +2958,6 @@ Arguments ""
 ]
 )
 (FileTypeState
-
 Extension "pdf"
 Description "Adobe Acrobat Pdf"
 Bitmap "$HDS_HOME\\resources\\bitmaps\\types\\pdf.bmp"
@@ -3295,7 +2966,6 @@ Actions [
 ]
 )
 (FileTypeState
-
 Extension "doc"
 Description "Microsoft Word Document"
 Bitmap "$HDS_HOME\\resources\\bitmaps\\types\\word.bmp"
@@ -3304,17 +2974,14 @@ Actions [
 ]
 )
 (FileTypeState
-
 Extension "xls"
 Description "Microsoft Excel Document"
 Bitmap "$HDS_HOME\\resources\\bitmaps\\types\\excel.bmp"
-
 DefaultAction ""
 Actions [
 ]
 )
 (FileTypeState
-
 Extension "tsv"
 Description "Microsoft Excel Document"
 Bitmap "$HDS_HOME\\resources\\bitmaps\\types\\excel.bmp"
@@ -3342,7 +3009,6 @@ Actions [
 Extension "vsd"
 Description "Microsoft Visio Document"
 Bitmap "$HDS_HOME\\resources\\bitmaps\\types\\visio.bmp"
-
 DefaultAction ""
 Actions [
 ]
@@ -3356,7 +3022,6 @@ Actions [
 ]
 )
 (FileTypeState
-
 Extension "html"
 Description "HTML File"
 Bitmap "$HDS_HOME\\resources\\bitmaps\\types\\web.bmp"
@@ -3365,7 +3030,6 @@ Actions [
 ]
 )
 (FileTypeState
-
 Extension "psl"
 Description "Property Specification Language File"
 Bitmap "$HDS_HOME\\resources\\bitmaps\\types\\psl.bmp"
@@ -3395,18 +3059,10 @@ Arguments ""
 Name "View"
 Tool "<Default Text Editor>"
 Arguments ""
-
 )
-(FileTypeState
-Extension "html"
-Description "HTML File"
-Bitmap "$HDS_HOME\\resources\\bitmaps\\types\\web.bmp"
-DefaultAction ""
-Actions [
 ]
 )
 (FileTypeState
-
 Extension "xlsm"
 Description "Excel macro-enabled spreadsheet"
 Bitmap "$HDS_HOME\\resources\\bitmaps\\types\\excel.bmp"
@@ -3427,7 +3083,6 @@ Arguments ""
 )
 (ActionState
 Name "Open"
-
 Tool "<Default Text Editor>"
 Arguments ""
 )
@@ -3436,7 +3091,6 @@ Name "New"
 Tool "<Default Text Editor>"
 Arguments ""
 )
-
 (ActionState
 Name "Open"
 Tool "<Default Text Editor>"
@@ -3474,7 +3128,6 @@ Actions [
 ]
 )
 (FileTypeState
-
 Extension "css"
 Description "HTML style sheet"
 Bitmap "$HDS_HOME\\resources\\bitmaps\\types\\cssFile.bmp"
@@ -3489,42 +3142,6 @@ Bitmap "$HDS_HOME\\resources\\bitmaps\\types\\gifFile.bmp"
 DefaultAction ""
 Actions [
 ]
-)
-(FileTypeState
-
-Extension "png"
-Description "PNG image"
-Bitmap "$HDS_HOME\\resources\\bitmaps\\types\\pngFile.bmp"
-
-DefaultAction ""
-Actions [
-]
-)
-(FileTypeState
-
-Extension "jpg"
-Description "JPG image"
-Bitmap "$HDS_HOME\\resources\\bitmaps\\types\\jpgFile.bmp"
-DefaultAction ""
-Actions [
-]
-)
-(FileTypeState
-
-Extension "svap"
-Description "SVAssistant project file"
-Bitmap "$HDS_HOME\\resources\\bitmaps\\types\\svapFile.bmp"
-DefaultAction "Open"
-Actions [
-(ActionState
-Name "Open"
-Tool "USER:SVAssistant Flow"
-Arguments "project %(p)"
-)
-(ActionState
-Name "View"
-Tool "USER:SVAssistant Flow"
-Arguments "project %(p)"
 )
 (FileTypeState
 Extension "png"
@@ -3593,7 +3210,6 @@ gridVertShown 1
 gridColor "26368,26368,26368"
 diagramBackground "65535,65535,65535"
 CompDirLabelVaSet (VaSet
-
 font "arial,8,1"
 )
 CompDirValueVaSet (VaSet
@@ -3607,7 +3223,6 @@ lineColor "32768,0,0"
 lineWidth 3
 )
 panelTextVaSet (VaSet
-
 font "arial,8,1"
 )
 interruptShapeVaSet (VaSet
@@ -3654,7 +3269,6 @@ lineColor "0,32768,49152"
 lineWidth 1
 )
 stateBoxNameVaSet (VaSet
-
 font "arial,10,1"
 )
 stateBoxMinimumSize "8000,2000"
@@ -3665,14 +3279,12 @@ fg "29952,39936,65280"
 lineWidth 1
 )
 compStateBoxNameVaSet (VaSet
-
 font "arial,10,1"
 )
 compStateBoxMinimumSize "8000,2000"
 compStateBoxDefaultSize "8000,4000"
 waitTextVaSet (VaSet
 fg "0,0,32768"
-
 font "arial,10,1"
 )
 sBlockShapeVaSet (VaSet
@@ -3709,7 +3321,6 @@ fg "32768,32768,32768"
 lineWidth 1
 )
 compActionBoxNameVaSet (VaSet
-
 font "arial,10,1"
 )
 compActionBoxMinimumSize "8000,2000"
@@ -3724,7 +3335,6 @@ font "arial,8,0"
 )
 decisionBoxLabelVaSet (VaSet
 fg "32768,0,0"
-
 font "arial,8,1"
 )
 decisionBoxMinimumSize "8000,2000"
@@ -3735,9 +3345,7 @@ lineWidth 1
 )
 startPointLabelVaSet (VaSet
 fg "65535,65535,65535"
-
 font "arial,10,1"
-
 )
 startPointMinimumSize "6000,2000"
 endPointShapeVaSet (VaSet
@@ -3747,7 +3355,6 @@ lineWidth 1
 )
 endPointLabelVaSet (VaSet
 fg "65535,65535,65535"
-
 font "arial,10,1"
 )
 endPointMinimumSize "6000,2000"
@@ -3756,7 +3363,6 @@ vasetType 1
 fg "0,32896,0"
 )
 linkNameVaSet (VaSet
-
 font "arial,8,1"
 )
 caseShapeVaSet (VaSet
@@ -3765,9 +3371,7 @@ fg "65535,65535,37120"
 lineWidth 1
 )
 caseLabelVaSet (VaSet
-
 font "arial,8,1"
-
 )
 caseExpressionVaSet (VaSet
 font "arial,8,0"
@@ -3780,7 +3384,6 @@ fg "65535,65535,37120"
 lineWidth 1
 )
 endCaseLabelVaSet (VaSet
-
 font "arial,8,1"
 )
 endCaseMinimumSize "8000,4000"
@@ -3790,9 +3393,7 @@ fg "65535,65535,37120"
 lineWidth 1
 )
 ifDecodeLabelVaSet (VaSet
-
 font "arial,8,1"
-
 )
 ifDecodeMinimumSize "14000,4000"
 ifDecodeDefaultSize "28000,4000"
@@ -3812,7 +3413,8 @@ lineColor "65535,0,0"
 fillStyle 12
 )
 branchPortNameVaSet (VaSet
-font "arial,8,1")
+font "arial,8,1"
+)
 flowShapeVaSet (VaSet
 vasetType 3
 )
@@ -4284,7 +3886,8 @@ fg "29952,39936,65280"
 lineWidth 2
 )
 compActionBoxNameVaSet (VaSet
-font "arial,10,1")
+font "arial,10,1"
+)
 decisionBoxShapeVaSet (VaSet
 vasetType 1
 fg "65535,65535,37120"
@@ -4461,18 +4064,10 @@ status 1
 version "1.1"
 ViewpointsPresent_V2 1
 Viewpoints_V2 [
-
 (Viewpoint_v2
 name "Default Viewpoint"
 masterDefault 1
 TreeListVPDatas [
-(TreeListVPData
-theList ""
-columns [
-]
-filterString ""
-accessRights 2
-)
 (TreeListVPData
 theList "Design Units"
 columns [
@@ -5477,11 +5072,16 @@ layoutExpression "V(H(A(C(DesignUnits)),A(C(Files))),H(A(C(DesignHierarchy)),A(C
 ]
 WorkTabs [
 (WorkTab
-name "my_project_lib"
-showingHierarchy 0
+name "Cursor_test"
 openLibs [
+"Cursor_test"
 ]
 declHierarchy [
+(DeclHierarchy
+libName "Cursor_test"
+primaryName "cursor_tb"
+secondaryName ""
+)
 ]
 activeViewpointIdx 0
 )
@@ -5499,20 +5099,6 @@ secondaryName ""
 ]
 activeViewpointIdx 0
 )
-(WorkTab
-name "Cursor_test"
-openLibs [
-"Cursor_test"
-]
-declHierarchy [
-(DeclHierarchy
-libName "Cursor_test"
-primaryName "cursor_tb"
-secondaryName ""
-)
-]
-activeViewpointIdx 0
-)
 ]
 ViewpointsOnOutlookBar [
 "Default Viewpoint"
@@ -5523,34 +5109,27 @@ ViewpointsOnOutlookBar [
 "All Views"
 ]
 lastActiveViewpoint "Default Viewpoint"
-
 expandedTemplateNodes [
 ]
 taskTemplatePage 0
 SplitterClientPrefs [
 "mainSplitter"
 (SplitterPreference
-hidden 1
+hidden 0
 expand 0
-size 0
+size 180
 )
 ]
 displayHierarchy 1
-xPos 100
-yPos 100
-
-width 1936
-height 1176
+xPos 0
+yPos 0
+width 1556
+height 980
 activeSidePanelTab 0
-activeLibraryTab 2
+activeLibraryTab 1
 sidePanelSize 280
 showUnixHiddenFiles 0
-componentBrowserWidth 544
-componentBrowserHeight 624
 componentBrowserLibraryNames [
-"Cursor"
-"gates"
-"sequential"
 ]
 )
 (SmPreferences
@@ -5584,7 +5163,6 @@ gridVertShown 1
 gridColor "26368,26368,26368"
 diagramBackground "65535,65535,65535"
 CompDirLabelVaSet (VaSet
-
 font "arial,8,1"
 )
 CompDirValueVaSet (VaSet
@@ -5598,7 +5176,6 @@ lineColor "32768,0,0"
 lineWidth 3
 )
 panelTextVaSet (VaSet
-
 font "arial,8,1"
 )
 visibilityPrefs [
@@ -5679,12 +5256,10 @@ lineColor "0,32768,49152"
 lineWidth 2
 )
 stateNameVaSet (VaSet
-
 font "arial,10,1"
 )
 stateEncodingVaSet (VaSet
 font "arial,8,1"
-
 )
 stateActionsVaSet (VaSet
 font "arial,8,0"
@@ -5697,9 +5272,7 @@ lineColor "39936,56832,65280"
 lineWidth -1
 )
 stateCaseVaSet (VaSet
-
 font "arial,8,1"
-
 )
 cStateShapeVaSet (VaSet
 vasetType 1
@@ -5708,7 +5281,6 @@ lineColor "0,0,32768"
 lineWidth 2
 )
 cStateNameVaSet (VaSet
-
 font "arial,10,1"
 )
 junctionShapeVaSet (VaSet
@@ -5716,7 +5288,6 @@ vasetType 1
 fg "59904,39936,65280"
 )
 junctionNameVaSet (VaSet
-
 font "arial,8,1"
 )
 junctionSymbolVaSet (VaSet
@@ -5737,7 +5308,6 @@ bg "0,0,0"
 )
 linkNameVaSet (VaSet
 font "arial,8,1"
-
 )
 exitPointShapeVaSet (VaSet
 vasetType 1
@@ -5782,28 +5352,24 @@ transitionShapeVaSet (VaSet
 vasetType 3
 )
 localDeclLabelVaSet (VaSet
-
 font "arial,8,1"
 )
 localDeclValueVaSet (VaSet
 font "arial,8,0"
 )
 processDeclLabelVaSet (VaSet
-
 font "arial,8,1"
 )
 processDeclValueVaSet (VaSet
 font "Courier New,8,0"
 )
 globalActionsLabelVaSet (VaSet
-
 font "arial,8,1"
 )
 globalActionsValueVaSet (VaSet
 font "arial,8,0"
 )
 stateRegBlkLabelVaSet (VaSet
-
 font "arial,8,1"
 )
 stateRegBlkValueVaSet (VaSet
@@ -5816,7 +5382,6 @@ signalsGenStatusValueVaSet (VaSet
 font "Courier New,8,0"
 )
 archConcurrentStatementBlockLabelVaSet (VaSet
-
 font "arial,8,1"
 )
 archConcurrentStatementBlockValueVaSet (VaSet
@@ -5958,9 +5523,7 @@ lineColor "32768,0,0"
 lineWidth 3
 )
 panelTextVaSet (VaSet
-
 font "arial,8,1"
-
 )
 bodyVaSet (VaSet
 vasetType 1
@@ -5978,7 +5541,6 @@ fg "65535,65535,65535"
 bg "0,0,0"
 )
 bodyFontVaSet (VaSet
-
 font "arial,8,1"
 )
 cptPortFontVaSet (VaSet
@@ -6040,7 +5602,6 @@ cptPortVhdlConstraintType 0
 DeclarativeBlockLabelText "Declarations"
 DeclarativeBlockLabelVaSet (VaSet
 font "arial,8,1"
-
 )
 DeclarativeBlockValueVaSet (VaSet
 font "Courier New,8,0"
