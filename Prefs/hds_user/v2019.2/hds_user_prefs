@@ -155,6 +155,10 @@ first "Notepad"
 second "notepad.exe \"%(p)\""
 )
 (pair
+first "Notepad++"
+second "\"C:\\Program Files (x86)\\Notepad++\\notepad++.exe\" \"%(p)\" -n%(l)"
+)
+(pair
 first "Textpad 3.2"
 second "txtpad32.exe \"%(p)(%(l))\""
 )
@@ -189,6 +193,10 @@ first "Notepad"
 second "notepad.exe \"%(p)\""
 )
 (pair
+first "Notepad++"
+second "\"C:\\Program Files (x86)\\Notepad++\\notepad++.exe\" "
+)
+(pair
 first "Textpad 3.2"
 second "txtpad32.exe -r \"%(p)(%(l))\""
 )
@@ -202,11 +210,12 @@ second "uedit32.exe \"%(p)/%(l)\" /r"
 )
 ]
 defaultTextPrintingCmd "Enscript"
-win32DefaultEditor "Builtin"
-win32DefaultViewer "Builtin"
+win32DefaultEditor "Notepad++"
+win32DefaultViewer "Notepad++"
 unixDefaultEditor "Builtin"
 unixDefaultViewer "Builtin"
-defaultLanguage 0
+defaultLanguage 11
+defaultVhdlDialect 11
 defaultVerilogDialect 5
 verilogSearchPath ""
 syscUserIncPath ""
@@ -241,7 +250,6 @@ toolbarVisibility [
 "StdWindow:CommentGraphics"
 "FcWindow:CommentGraphics"
 "BdWindow:Appearance"
-"TabularWindow:Appearance"
 "SymbolWindow:Appearance"
 "AsmWindow:Appearance"
 "StdWindow:Appearance"
@@ -250,7 +258,6 @@ toolbarVisibility [
 "StdTabWindow:Appearance"
 "FcTabWindow:Appearance"
 "AsmTabWindow:Appearance"
-"BdTabWindow:Appearance"
 "TtTabWindow:Appearance"
 "BdWindow:ArrangeObject"
 "SymbolWindow:ArrangeObject"
@@ -273,8 +280,6 @@ projectPaths [
 "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\ELN_CURSOR_JCHE_THJCT\\Prefs\\hds.hdp"
 "C:\\eda\\ELN_CURSOR_JCHE_THJCT_VersionThéo\\ELN_CURSOR_JCHE_THJCT\\Prefs\\hds.hdp"
 "C:\\eda\\ELN_CURSOR_JCHE_THJCT_VersionTheo\\ELN_CURSOR_JCHE_THJCT\\Prefs\\hds.hdp"
-"C:\\Users\\remi\\Downloads\\ELN_CURSOR_JCHE_THJCT_VersionTheo\\ELN_CURSOR_JCHE_THJCT_VersionTheo\\ELN_CURSOR_JCHE_THJCT\\Prefs\\hds.hdp"
-"C:\\tmp\\cursor_theo\\ELN_CURSOR_JCHE_THJCT\\Prefs\\hds.hdp"
 "C:\\eda\\ELN_CURSOR_JCHE_THJCT\\Prefs\\hds.hdp"
 ]
 libMappingsRootDir ""
@@ -493,6 +498,18 @@ second ""
 first "task_VCSPath"
 second ""
 )
+]
+defaultCategoryTemplates [
+1
+"architecture.vhd"
+9
+"new_document.txt"
+]
+defaultCategoryTemplatesPrefs [
+1
+0
+9
+0
 ]
 tasksOrder [
 "USER:Altera MegaWizard"
@@ -2152,6 +2169,8 @@ second ""
 ]
 mwParamsVisibility (mwParamsVisibilityOptions
 )
+autoPopupExprBuilder 0
+showExprBldrHint 0
 searchStrings [
 ]
 hdlWorkspaceLocation ""
@@ -2159,8 +2178,9 @@ hdsWorkspaceLocation ""
 relativeLibraryRootDir ""
 vmLabelLatestDontAskAgain 0
 vmLabelWorkspaceDontAskAgain 0
-logWindowGeometry "600x200-1510+78"
+logWindowGeometry "1920x1137+-145+82"
 diagramBrowserTabNo 0
+showInsertPortHint 0
 showContentFirstTime 0
 )
 (GenerationPreferences
@@ -2182,6 +2202,7 @@ endmodule"
 vhdlConfigsName "%(unit)_%(view)_config"
 vhdlConfigsFileNameTemplate "%(config)"
 vhdlConfigsNameTemplate "%(unit)_%(view)_config"
+separateEntity 1
 )
 (CompilationPreferences
 )
@@ -3186,11 +3207,9 @@ packageListLabelVaSet (VaSet
 font "arial,8,1"
 )
 packageListFontVaSet (VaSet
-font "arial,8,0"
 )
 commentTextFontVaSet (VaSet
 fg "0,0,32768"
-font "arial,8,0"
 )
 commentTextShapeVaSet (VaSet
 vasetType 1
@@ -3210,10 +3229,9 @@ gridVertShown 1
 gridColor "26368,26368,26368"
 diagramBackground "65535,65535,65535"
 CompDirLabelVaSet (VaSet
-font "arial,8,1"
+font "Arial,8,1"
 )
 CompDirValueVaSet (VaSet
-font "arial,8,0"
 )
 defaultPanelName "Panel0"
 panelShapeVaSet (VaSet
@@ -3223,14 +3241,13 @@ lineColor "32768,0,0"
 lineWidth 3
 )
 panelTextVaSet (VaSet
-font "arial,8,1"
+font "Arial,8,1"
 )
 interruptShapeVaSet (VaSet
 vasetType 1
 fg "65535,0,0"
 )
 resetNameVaSet (VaSet
-font "arial,8,0"
 )
 resetShapeVaSet (VaSet
 vasetType 1
@@ -3241,21 +3258,18 @@ vasetType 1
 fg "65535,0,0"
 )
 clockNameVaSet (VaSet
-font "arial,8,0"
 )
 clockShapeVaSet (VaSet
 vasetType 1
 fg "65535,65535,0"
 )
 enableNameVaSet (VaSet
-font "arial,8,0"
 )
 enableShapeVaSet (VaSet
 vasetType 1
 fg "65535,65535,0"
 )
 ccondNameVaSet (VaSet
-font "arial,8,0"
 )
 ccondShapeVaSet (VaSet
 vasetType 1
@@ -3269,7 +3283,7 @@ lineColor "0,32768,49152"
 lineWidth 1
 )
 stateBoxNameVaSet (VaSet
-font "arial,10,1"
+font "Arial,10,1"
 )
 stateBoxMinimumSize "8000,2000"
 stateBoxDefaultSize "8000,4000"
@@ -3279,13 +3293,13 @@ fg "29952,39936,65280"
 lineWidth 1
 )
 compStateBoxNameVaSet (VaSet
-font "arial,10,1"
+font "Arial,10,1"
 )
 compStateBoxMinimumSize "8000,2000"
 compStateBoxDefaultSize "8000,4000"
 waitTextVaSet (VaSet
 fg "0,0,32768"
-font "arial,10,1"
+font "Arial,10,1"
 )
 sBlockShapeVaSet (VaSet
 vasetType 1
@@ -3294,7 +3308,6 @@ bg "0,0,0"
 lineColor "0,32768,49152"
 )
 sBlockActionsVaSet (VaSet
-font "arial,8,0"
 )
 priorityShapeVaSet (VaSet
 vasetType 1
@@ -3303,7 +3316,6 @@ bg "0,0,0"
 lineWidth 1
 )
 priorityNameVaSet (VaSet
-font "arial,8,0"
 )
 actionBoxShapeVaSet (VaSet
 vasetType 1
@@ -3311,7 +3323,6 @@ fg "49152,49152,49152"
 lineWidth 1
 )
 actionBoxActionsVaSet (VaSet
-font "arial,8,0"
 )
 actionBoxMinimumSize "8000,2000"
 actionBoxDefaultSize "8000,4000"
@@ -3321,7 +3332,7 @@ fg "32768,32768,32768"
 lineWidth 1
 )
 compActionBoxNameVaSet (VaSet
-font "arial,10,1"
+font "Arial,10,1"
 )
 compActionBoxMinimumSize "8000,2000"
 compActionBoxDefaultSize "8000,4000"
@@ -3331,11 +3342,10 @@ fg "65535,65535,37120"
 lineWidth 1
 )
 decisionBoxConditionVaSet (VaSet
-font "arial,8,0"
 )
 decisionBoxLabelVaSet (VaSet
 fg "32768,0,0"
-font "arial,8,1"
+font "Arial,8,1"
 )
 decisionBoxMinimumSize "8000,2000"
 startPointShapeVaSet (VaSet
@@ -3345,7 +3355,7 @@ lineWidth 1
 )
 startPointLabelVaSet (VaSet
 fg "65535,65535,65535"
-font "arial,10,1"
+font "Arial,10,1"
 )
 startPointMinimumSize "6000,2000"
 endPointShapeVaSet (VaSet
@@ -3355,7 +3365,7 @@ lineWidth 1
 )
 endPointLabelVaSet (VaSet
 fg "65535,65535,65535"
-font "arial,10,1"
+font "Arial,10,1"
 )
 endPointMinimumSize "6000,2000"
 linkShapeVaSet (VaSet
@@ -3363,7 +3373,7 @@ vasetType 1
 fg "0,32896,0"
 )
 linkNameVaSet (VaSet
-font "arial,8,1"
+font "Arial,8,1"
 )
 caseShapeVaSet (VaSet
 vasetType 1
@@ -3371,10 +3381,9 @@ fg "65535,65535,37120"
 lineWidth 1
 )
 caseLabelVaSet (VaSet
-font "arial,8,1"
+font "Arial,8,1"
 )
 caseExpressionVaSet (VaSet
-font "arial,8,0"
 )
 caseMinimumSize "14000,4000"
 caseDefaultSize "28000,4000"
@@ -3384,7 +3393,7 @@ fg "65535,65535,37120"
 lineWidth 1
 )
 endCaseLabelVaSet (VaSet
-font "arial,8,1"
+font "Arial,8,1"
 )
 endCaseMinimumSize "8000,4000"
 ifDecodeShapeVaSet (VaSet
@@ -3393,7 +3402,7 @@ fg "65535,65535,37120"
 lineWidth 1
 )
 ifDecodeLabelVaSet (VaSet
-font "arial,8,1"
+font "Arial,8,1"
 )
 ifDecodeMinimumSize "14000,4000"
 ifDecodeDefaultSize "28000,4000"
@@ -3403,7 +3412,7 @@ fg "65535,65535,37120"
 lineWidth 1
 )
 endIfLabelVaSet (VaSet
-font "arial,8,1"
+font "Arial,8,1"
 )
 endIfDecodeMinimumSize "8000,4000"
 branchPortShapeVaSet (VaSet
@@ -3413,7 +3422,7 @@ lineColor "65535,0,0"
 fillStyle 12
 )
 branchPortNameVaSet (VaSet
-font "arial,8,1"
+font "Arial,8,1"
 )
 flowShapeVaSet (VaSet
 vasetType 3
@@ -3435,16 +3444,14 @@ signalStatValueVaSet (VaSet
 font "Courier New,8,0"
 )
 declLabelVaSet (VaSet
-font "arial,8,1"
+font "Arial,8,1"
 )
 declValueVaSet (VaSet
-font "arial,8,0"
 )
 stmtLabelVaSet (VaSet
-font "arial,8,1"
+font "Arial,8,1"
 )
 stmtValueVaSet (VaSet
-font "arial,8,0"
 )
 visibilityPrefs [
 (StringToBool
@@ -3492,11 +3499,9 @@ packageListLabelVaSet (VaSet
 font "arial,8,1"
 )
 packageListFontVaSet (VaSet
-font "arial,8,0"
 )
 commentTextFontVaSet (VaSet
 fg "0,0,32768"
-font "arial,8,0"
 )
 commentTextShapeVaSet (VaSet
 vasetType 1
@@ -3516,10 +3521,9 @@ gridVertShown 1
 gridColor "26368,26368,26368"
 diagramBackground "65535,65535,65535"
 CompDirLabelVaSet (VaSet
-font "arial,8,1"
+font "Arial,8,1"
 )
 CompDirValueVaSet (VaSet
-font "arial,8,0"
 )
 defaultPanelName "Panel0"
 panelShapeVaSet (VaSet
@@ -3529,7 +3533,7 @@ lineColor "32768,0,0"
 lineWidth 3
 )
 panelTextVaSet (VaSet
-font "arial,8,1"
+font "Arial,8,1"
 )
 hdlTextName "eb1"
 signalName "sig0"
@@ -3666,25 +3670,21 @@ lineColor "32768,0,0"
 lineWidth 2
 )
 blockFontVaSet (VaSet
-font "arial,8,1"
+font "Arial,8,1"
 )
 cptFontVaSet (VaSet
-font "arial,8,1"
+font "Arial,8,1"
 )
 signalFontVaSet (VaSet
-font "arial,8,0"
 )
 bundleFontVaSet (VaSet
-font "arial,8,0"
 )
 cptPortFontVaSet (VaSet
-font "arial,8,0"
 )
 hdlTextFontVaSet (VaSet
-font "arial,8,1"
+font "Arial,8,1"
 )
 embeddedTextVaSet (VaSet
-font "arial,8,0"
 )
 embeddedTextShapeVaSet (VaSet
 vasetType 1
@@ -3693,7 +3693,7 @@ lineColor "0,0,32768"
 lineWidth 2
 )
 globalConnectorFontVaSet (VaSet
-font "arial,8,1"
+font "Arial,8,1"
 )
 genericAssocFontVaSet (VaSet
 font "Courier New,8,0"
@@ -3705,7 +3705,6 @@ lineColor "0,0,32768"
 lineWidth 2
 )
 portMapNameVaSet (VaSet
-font "arial,8,0"
 )
 genFrameVaSet (VaSet
 vasetType 1
@@ -3722,7 +3721,6 @@ lineStyle 1
 lineWidth 3
 )
 frameTxtVaSet (VaSet
-font "arial,8,0"
 )
 foreignCptVaSet (VaSet
 vasetType 1
@@ -3733,7 +3731,7 @@ lineWidth 2
 order 0
 archDeclarativeBlockLabelText "Declarations"
 archDeclarativeBlockLabelVaSet (VaSet
-font "arial,8,1"
+font "Arial,8,1"
 )
 archDeclarativeBlockValueVaSet (VaSet
 font "Courier New,8,0"
@@ -3828,11 +3826,9 @@ packageListLabelVaSet (VaSet
 font "arial,8,1"
 )
 packageListFontVaSet (VaSet
-font "arial,8,0"
 )
 commentTextFontVaSet (VaSet
 fg "0,0,32768"
-font "arial,8,0"
 )
 commentTextShapeVaSet (VaSet
 vasetType 1
@@ -3852,10 +3848,9 @@ gridVertShown 1
 gridColor "26368,26368,26368"
 diagramBackground "65535,65535,65535"
 CompDirLabelVaSet (VaSet
-font "arial,8,1"
+font "Arial,8,1"
 )
 CompDirValueVaSet (VaSet
-font "arial,8,0"
 )
 defaultPanelName "Panel0"
 panelShapeVaSet (VaSet
@@ -3865,7 +3860,7 @@ lineColor "32768,0,0"
 lineWidth 3
 )
 panelTextVaSet (VaSet
-font "arial,8,1"
+font "Arial,8,1"
 )
 actionBoxShapeVaSet (VaSet
 vasetType 1
@@ -3875,10 +3870,8 @@ lineWidth 2
 )
 actionBoxNameVaSet (VaSet
 fg "0,32768,49152"
-font "arial,8,0"
 )
 actionBoxActionsVaSet (VaSet
-font "arial,8,0"
 )
 compActionBoxShapeVaSet (VaSet
 vasetType 1
@@ -3886,7 +3879,7 @@ fg "29952,39936,65280"
 lineWidth 2
 )
 compActionBoxNameVaSet (VaSet
-font "arial,10,1"
+font "Arial,10,1"
 )
 decisionBoxShapeVaSet (VaSet
 vasetType 1
@@ -3895,14 +3888,12 @@ lineWidth 2
 )
 decisionBoxNameVaSet (VaSet
 fg "0,32768,49152"
-font "arial,8,0"
 )
 decisionBoxConditionVaSet (VaSet
-font "arial,8,0"
 )
 decisionBoxLabelVaSet (VaSet
 fg "32768,0,0"
-font "arial,8,1"
+font "Arial,8,1"
 )
 waitBoxShapeVaSet (VaSet
 vasetType 1
@@ -3910,10 +3901,8 @@ fg "65535,0,0"
 )
 waitBoxNameVaSet (VaSet
 fg "0,32768,49152"
-font "arial,8,0"
 )
 waitBoxConditionVaSet (VaSet
-font "arial,8,0"
 )
 startPointShapeVaSet (VaSet
 vasetType 1
@@ -3922,7 +3911,7 @@ lineWidth 2
 )
 startPointLabelVaSet (VaSet
 fg "65535,65535,65535"
-font "arial,10,1"
+font "Arial,10,1"
 )
 endPointShapeVaSet (VaSet
 vasetType 1
@@ -3931,7 +3920,7 @@ lineWidth 2
 )
 endPointLabelVaSet (VaSet
 fg "65535,65535,65535"
-font "arial,10,1"
+font "Arial,10,1"
 )
 startLoopShapeVaSet (VaSet
 vasetType 1
@@ -3941,13 +3930,11 @@ lineWidth 2
 )
 startLoopNameVaSet (VaSet
 fg "0,32768,49152"
-font "arial,8,0"
 )
 startLoopLabelVaSet (VaSet
-font "arial,8,1"
+font "Arial,8,1"
 )
 startLoopConditionVaSet (VaSet
-font "arial,8,0"
 )
 endLoopShapeVaSet (VaSet
 vasetType 1
@@ -3956,7 +3943,7 @@ lineColor "0,32896,0"
 lineWidth 2
 )
 endLoopLabelVaSet (VaSet
-font "arial,8,1"
+font "Arial,8,1"
 )
 startCaseShapeVaSet (VaSet
 vasetType 1
@@ -3965,13 +3952,11 @@ lineWidth 2
 )
 startCaseNameVaSet (VaSet
 fg "0,32768,49152"
-font "arial,8,0"
 )
 startCaseLabelVaSet (VaSet
-font "arial,8,1"
+font "Arial,8,1"
 )
 startCaseExpressionVaSet (VaSet
-font "arial,8,0"
 )
 endCaseShapeVaSet (VaSet
 vasetType 1
@@ -3979,7 +3964,7 @@ fg "65535,65535,37120"
 lineWidth 2
 )
 endCaseLabelVaSet (VaSet
-font "arial,8,1"
+font "Arial,8,1"
 )
 casePortShapeVaSet (VaSet
 vasetType 1
@@ -3987,7 +3972,7 @@ fg "65535,0,0"
 fillStyle 12
 )
 casePortNameVaSet (VaSet
-font "arial,8,1"
+font "Arial,8,1"
 )
 flowShapeVaSet (VaSet
 vasetType 3
@@ -4002,28 +3987,24 @@ lineColor "65535,0,0"
 fillStyle 12
 )
 archDeclarativeBlockLabelVaSet (VaSet
-font "arial,8,1"
+font "Arial,8,1"
 )
 archDeclarativeBlockValueVaSet (VaSet
-font "arial,8,0"
 )
 archConcurrentStatementBlockLabelVaSet (VaSet
-font "arial,8,1"
+font "Arial,8,1"
 )
 archConcurrentStatementBlockValueVaSet (VaSet
-font "arial,8,0"
 )
 processDeclarativeBlockLabelVaSet (VaSet
-font "arial,8,1"
+font "Arial,8,1"
 )
 processDeclarativeBlockValueVaSet (VaSet
-font "arial,8,0"
 )
 sensitivityListBlockLabelVaSet (VaSet
-font "arial,8,1"
+font "Arial,8,1"
 )
 sensitivityListBlockValueVaSet (VaSet
-font "arial,8,0"
 )
 visibilityPrefs [
 (StringToBool
@@ -4068,6 +4049,13 @@ Viewpoints_V2 [
 name "Default Viewpoint"
 masterDefault 1
 TreeListVPDatas [
+(TreeListVPData
+theList ""
+columns [
+]
+filterString ""
+accessRights 2
+)
 (TreeListVPData
 theList "Design Units"
 columns [
@@ -5101,12 +5089,6 @@ activeViewpointIdx 0
 )
 ]
 ViewpointsOnOutlookBar [
-"Default Viewpoint"
-"Version Management"
-"HDL Files"
-"Logical Objects"
-"Requirements"
-"All Views"
 ]
 lastActiveViewpoint "Default Viewpoint"
 expandedTemplateNodes [
@@ -5123,13 +5105,18 @@ size 180
 displayHierarchy 1
 xPos 0
 yPos 0
-width 1556
-height 980
+width 1936
+height 1056
 activeSidePanelTab 0
 activeLibraryTab 1
 sidePanelSize 280
 showUnixHiddenFiles 0
+componentBrowserWidth 300
+componentBrowserHeight 340
 componentBrowserLibraryNames [
+"Cursor_test"
+"gates"
+"sequential"
 ]
 )
 (SmPreferences
@@ -5139,11 +5126,9 @@ packageListLabelVaSet (VaSet
 font "arial,8,1"
 )
 packageListFontVaSet (VaSet
-font "arial,8,0"
 )
 commentTextFontVaSet (VaSet
 fg "0,0,32768"
-font "arial,8,0"
 )
 commentTextShapeVaSet (VaSet
 vasetType 1
@@ -5163,10 +5148,9 @@ gridVertShown 1
 gridColor "26368,26368,26368"
 diagramBackground "65535,65535,65535"
 CompDirLabelVaSet (VaSet
-font "arial,8,1"
+font "Arial,8,1"
 )
 CompDirValueVaSet (VaSet
-font "arial,8,0"
 )
 defaultPanelName "Panel0"
 panelShapeVaSet (VaSet
@@ -5176,7 +5160,7 @@ lineColor "32768,0,0"
 lineWidth 3
 )
 panelTextVaSet (VaSet
-font "arial,8,1"
+font "Arial,8,1"
 )
 visibilityPrefs [
 (StringToBool
@@ -5256,13 +5240,12 @@ lineColor "0,32768,49152"
 lineWidth 2
 )
 stateNameVaSet (VaSet
-font "arial,10,1"
+font "Arial,10,1"
 )
 stateEncodingVaSet (VaSet
-font "arial,8,1"
+font "Arial,8,1"
 )
 stateActionsVaSet (VaSet
-font "arial,8,0"
 )
 stateActionShapeVaSet (VaSet
 vasetType 1
@@ -5272,7 +5255,7 @@ lineColor "39936,56832,65280"
 lineWidth -1
 )
 stateCaseVaSet (VaSet
-font "arial,8,1"
+font "Arial,8,1"
 )
 cStateShapeVaSet (VaSet
 vasetType 1
@@ -5281,17 +5264,17 @@ lineColor "0,0,32768"
 lineWidth 2
 )
 cStateNameVaSet (VaSet
-font "arial,10,1"
+font "Arial,10,1"
 )
 junctionShapeVaSet (VaSet
 vasetType 1
 fg "59904,39936,65280"
 )
 junctionNameVaSet (VaSet
-font "arial,8,1"
+font "Arial,8,1"
 )
 junctionSymbolVaSet (VaSet
-font "arial,10,1"
+font "Arial,10,1"
 )
 entryPointShapeVaSet (VaSet
 vasetType 1
@@ -5307,7 +5290,7 @@ fg "65535,65535,0"
 bg "0,0,0"
 )
 linkNameVaSet (VaSet
-font "arial,8,1"
+font "Arial,8,1"
 )
 exitPointShapeVaSet (VaSet
 vasetType 1
@@ -5333,10 +5316,8 @@ tBlockLineVaSet (VaSet
 vasetType 3
 )
 tBlockConditionVaSet (VaSet
-font "arial,8,0"
 )
 tBlockActionsVaSet (VaSet
-font "arial,8,0"
 )
 tPriorityRadius 40
 tPriorityPadding 100
@@ -5346,46 +5327,42 @@ fg "65535,65535,65535"
 bg "0,0,0"
 )
 tPriorityNameVaSet (VaSet
-font "arial,8,0"
 )
 transitionShapeVaSet (VaSet
 vasetType 3
 )
 localDeclLabelVaSet (VaSet
-font "arial,8,1"
+font "Arial,8,1"
 )
 localDeclValueVaSet (VaSet
-font "arial,8,0"
+font "Courier New,8,0"
 )
 processDeclLabelVaSet (VaSet
-font "arial,8,1"
+font "Arial,8,1"
 )
 processDeclValueVaSet (VaSet
 font "Courier New,8,0"
 )
 globalActionsLabelVaSet (VaSet
-font "arial,8,1"
+font "Arial,8,1"
 )
 globalActionsValueVaSet (VaSet
-font "arial,8,0"
 )
 stateRegBlkLabelVaSet (VaSet
-font "arial,8,1"
+font "Arial,8,1"
 )
 stateRegBlkValueVaSet (VaSet
-font "arial,8,0"
 )
 signalsGenStatusVaSet (VaSet
-font "arial,8,1"
+font "Arial,8,1"
 )
 signalsGenStatusValueVaSet (VaSet
 font "Courier New,8,0"
 )
 archConcurrentStatementBlockLabelVaSet (VaSet
-font "arial,8,1"
+font "Arial,8,1"
 )
 archConcurrentStatementBlockValueVaSet (VaSet
-font "arial,8,0"
 )
 outputSignalStatus 1
 internalSignalStatus 2
@@ -5486,11 +5463,9 @@ packageListLabelVaSet (VaSet
 font "arial,8,1"
 )
 packageListFontVaSet (VaSet
-font "arial,8,0"
 )
 commentTextFontVaSet (VaSet
 fg "0,0,32768"
-font "arial,8,0"
 )
 commentTextShapeVaSet (VaSet
 vasetType 1
@@ -5523,7 +5498,7 @@ lineColor "32768,0,0"
 lineWidth 3
 )
 panelTextVaSet (VaSet
-font "arial,8,1"
+font "Arial,8,1"
 )
 bodyVaSet (VaSet
 vasetType 1
@@ -5541,10 +5516,9 @@ fg "65535,65535,65535"
 bg "0,0,0"
 )
 bodyFontVaSet (VaSet
-font "arial,8,1"
+font "Arial,8,1"
 )
 cptPortFontVaSet (VaSet
-font "arial,8,0"
 )
 genericInterfaceFontVaSet (VaSet
 font "Courier New,8,0"
@@ -5601,7 +5575,7 @@ cptPortVerilogRb "0"
 cptPortVhdlConstraintType 0
 DeclarativeBlockLabelText "Declarations"
 DeclarativeBlockLabelVaSet (VaSet
-font "arial,8,1"
+font "Arial,8,1"
 )
 DeclarativeBlockValueVaSet (VaSet
 font "Courier New,8,0"

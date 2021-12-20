@@ -102,23 +102,23 @@ value " "
 )
 (vvPair
 variable "HDLDir"
-value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\ELN_CURSOR_JCHE_THJCT\\Prefs\\..\\Cursor\\hdl"
+value "C:\\eda\\ELN_CURSOR_JCHE_THJCT\\Prefs\\..\\Cursor\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\ELN_CURSOR_JCHE_THJCT\\Prefs\\..\\Cursor\\hds"
+value "C:\\eda\\ELN_CURSOR_JCHE_THJCT\\Prefs\\..\\Cursor\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\ELN_CURSOR_JCHE_THJCT\\Prefs\\..\\Cursor\\hds\\cursor@circuit\\student@version.bd.info"
+value "C:\\eda\\ELN_CURSOR_JCHE_THJCT\\Prefs\\..\\Cursor\\hds\\cursor@circuit\\student@version.bd.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\ELN_CURSOR_JCHE_THJCT\\Prefs\\..\\Cursor\\hds\\cursor@circuit\\student@version.bd.user"
+value "C:\\eda\\ELN_CURSOR_JCHE_THJCT\\Prefs\\..\\Cursor\\hds\\cursor@circuit\\student@version.bd.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\ELN_CURSOR_JCHE_THJCT\\Prefs\\..\\Cursor\\hds"
+value "C:\\eda\\ELN_CURSOR_JCHE_THJCT\\Prefs\\..\\Cursor\\hds"
 )
 (vvPair
 variable "appl"
@@ -138,27 +138,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\ELN_CURSOR_JCHE_THJCT\\Prefs\\..\\Cursor\\hds\\cursor@circuit"
+value "C:\\eda\\ELN_CURSOR_JCHE_THJCT\\Prefs\\..\\Cursor\\hds\\cursor@circuit"
 )
 (vvPair
 variable "d_logical"
-value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\ELN_CURSOR_JCHE_THJCT\\Prefs\\..\\Cursor\\hds\\cursorCircuit"
+value "C:\\eda\\ELN_CURSOR_JCHE_THJCT\\Prefs\\..\\Cursor\\hds\\cursorCircuit"
 )
 (vvPair
 variable "date"
-value "17.12.2021"
+value "20.12.2021"
 )
 (vvPair
 variable "day"
-value "ven."
+value "lun."
 )
 (vvPair
 variable "day_long"
-value "vendredi"
+value "lundi"
 )
 (vvPair
 variable "dd"
-value "17"
+value "20"
 )
 (vvPair
 variable "designName"
@@ -186,11 +186,11 @@ value "student@version"
 )
 (vvPair
 variable "graphical_source_author"
-value "theo"
+value "Julie"
 )
 (vvPair
 variable "graphical_source_date"
-value "17.12.2021"
+value "20.12.2021"
 )
 (vvPair
 variable "graphical_source_group"
@@ -198,11 +198,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "LAPTOP-I9J0I4RD"
+value "LAPTOP-J400VU4F"
 )
 (vvPair
 variable "graphical_source_time"
-value "13:10:56"
+value "15:57:43"
 )
 (vvPair
 variable "group"
@@ -210,7 +210,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "LAPTOP-I9J0I4RD"
+value "LAPTOP-J400VU4F"
 )
 (vvPair
 variable "language"
@@ -258,11 +258,11 @@ value "décembre"
 )
 (vvPair
 variable "p"
-value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\ELN_CURSOR_JCHE_THJCT\\Prefs\\..\\Cursor\\hds\\cursor@circuit\\student@version.bd"
+value "C:\\eda\\ELN_CURSOR_JCHE_THJCT\\Prefs\\..\\Cursor\\hds\\cursor@circuit\\student@version.bd"
 )
 (vvPair
 variable "p_logical"
-value "C:\\Users\\theo\\Documents\\Professionnels-Ecole\\01.HEI-1ereAnnee\\05.ElecNum\\05.Projet\\04.GIT\\ELN_CURSOR_JCHE_THJCT\\Prefs\\..\\Cursor\\hds\\cursorCircuit\\studentVersion.bd"
+value "C:\\eda\\ELN_CURSOR_JCHE_THJCT\\Prefs\\..\\Cursor\\hds\\cursorCircuit\\studentVersion.bd"
 )
 (vvPair
 variable "package_name"
@@ -338,7 +338,7 @@ value "studentVersion"
 )
 (vvPair
 variable "time"
-value "13:10:56"
+value "15:57:43"
 )
 (vvPair
 variable "unit"
@@ -346,7 +346,7 @@ value "cursorCircuit"
 )
 (vvPair
 variable "user"
-value "theo"
+value "Julie"
 )
 (vvPair
 variable "version"
@@ -383,8 +383,7 @@ va (VaSet
 isHidden 1
 )
 xt "26000,-33000,35100,-32000"
-st "reset            : std_ulogic
-"
+st "reset            : std_ulogic"
 )
 )
 *2 (Net
@@ -401,8 +400,7 @@ va (VaSet
 isHidden 1
 )
 xt "26000,-36600,35200,-35600"
-st "clock            : std_ulogic
-"
+st "clock            : std_ulogic"
 )
 )
 *3 (Grouping
@@ -790,8 +788,7 @@ isHidden 1
 font "Verdana,8,0"
 )
 xt "-17000,-28200,-5000,-27200"
-st "restart          : std_uLogic
-"
+st "restart          : std_uLogic"
 )
 )
 *16 (PortIoIn
@@ -864,8 +861,7 @@ isHidden 1
 font "Verdana,8,0"
 )
 xt "-17000,-28200,-4200,-27200"
-st "testMode         : std_uLogic
-"
+st "testMode         : std_uLogic"
 )
 )
 *18 (PortIoOut
@@ -937,8 +933,7 @@ isHidden 1
 font "Verdana,8,0"
 )
 xt "0,-33200,23000,-32200"
-st "testOut          : std_uLogic_vector(1 TO testLineNb)
-"
+st "testOut          : std_uLogic_vector(1 TO testLineNb)"
 )
 )
 *20 (PortIoIn
@@ -1011,8 +1006,7 @@ isHidden 1
 font "Verdana,8,0"
 )
 xt "0,-33200,12500,-32200"
-st "sensor1          : std_uLogic
-"
+st "sensor1          : std_uLogic"
 )
 )
 *22 (PortIoIn
@@ -1085,8 +1079,7 @@ isHidden 1
 font "Verdana,8,0"
 )
 xt "0,-33200,12500,-32200"
-st "sensor2          : std_uLogic
-"
+st "sensor2          : std_uLogic"
 )
 )
 *24 (PortIoOut
@@ -1157,8 +1150,7 @@ isHidden 1
 font "Verdana,8,0"
 )
 xt "0,-33200,12900,-32200"
-st "motorOn          : std_uLogic
-"
+st "motorOn          : std_uLogic"
 )
 )
 *26 (PortIoOut
@@ -1229,8 +1221,7 @@ isHidden 1
 font "Verdana,8,0"
 )
 xt "0,-33200,12100,-32200"
-st "side1            : std_uLogic
-"
+st "side1            : std_uLogic"
 )
 )
 *28 (PortIoOut
@@ -1301,8 +1292,7 @@ isHidden 1
 font "Verdana,8,0"
 )
 xt "0,-33200,12100,-32200"
-st "side2            : std_uLogic
-"
+st "side2            : std_uLogic"
 )
 )
 *30 (PortIoIn
@@ -1375,8 +1365,7 @@ isHidden 1
 font "Verdana,8,0"
 )
 xt "0,-33200,12800,-32200"
-st "encoderA         : std_uLogic
-"
+st "encoderA         : std_uLogic"
 )
 )
 *32 (PortIoIn
@@ -1449,8 +1438,7 @@ isHidden 1
 font "Verdana,8,0"
 )
 xt "0,-33200,12800,-32200"
-st "encoderB         : std_uLogic
-"
+st "encoderB         : std_uLogic"
 )
 )
 *34 (PortIoIn
@@ -1523,8 +1511,7 @@ isHidden 1
 font "Verdana,8,0"
 )
 xt "0,-33200,12600,-32200"
-st "encoderI         : std_uLogic
-"
+st "encoderI         : std_uLogic"
 )
 )
 *36 (PortIoIn
@@ -1597,8 +1584,7 @@ isHidden 1
 font "Verdana,8,0"
 )
 xt "0,-33200,12100,-32200"
-st "go1              : std_uLogic
-"
+st "go1              : std_uLogic"
 )
 )
 *38 (PortIoIn
@@ -1671,8 +1657,7 @@ isHidden 1
 font "Verdana,8,0"
 )
 xt "0,-33200,12100,-32200"
-st "go2              : std_uLogic
-"
+st "go2              : std_uLogic"
 )
 )
 *40 (PortIoIn
@@ -1744,8 +1729,7 @@ va (VaSet
 isHidden 1
 )
 xt "0,-57800,9600,-56800"
-st "button4          : std_uLogic
-"
+st "button4          : std_uLogic"
 )
 )
 *42 (PortIoIn
@@ -1872,8 +1856,7 @@ va (VaSet
 isHidden 1
 )
 xt "0,-33600,9700,-32600"
-st "CS1_n            : std_ulogic
-"
+st "CS1_n            : std_ulogic"
 )
 )
 *45 (Net
@@ -1890,8 +1873,7 @@ va (VaSet
 isHidden 1
 )
 xt "0,-33600,9300,-32600"
-st "SCL              : std_ulogic
-"
+st "SCL              : std_ulogic"
 )
 )
 *46 (Net
@@ -1908,8 +1890,7 @@ va (VaSet
 isHidden 1
 )
 xt "0,-33600,8700,-32600"
-st "SI               : std_ulogic
-"
+st "SI               : std_ulogic"
 )
 )
 *47 (Net
@@ -1926,8 +1907,7 @@ va (VaSet
 isHidden 1
 )
 xt "0,-33600,8900,-32600"
-st "A0               : std_ulogic
-"
+st "A0               : std_ulogic"
 )
 )
 *48 (Net
@@ -1944,8 +1924,7 @@ va (VaSet
 isHidden 1
 )
 xt "0,-33600,9800,-32600"
-st "RST_n            : std_ulogic
-"
+st "RST_n            : std_ulogic"
 )
 )
 *49 (PortIoOut
@@ -2354,8 +2333,7 @@ va (VaSet
 isHidden 1
 )
 xt "0,-34000,12900,-33000"
-st "SIGNAL decod_dir        : std_ulogic
-"
+st "SIGNAL decod_dir        : std_ulogic"
 )
 )
 *63 (Net
@@ -2374,8 +2352,7 @@ va (VaSet
 isHidden 1
 )
 xt "0,-34000,18400,-33000"
-st "SIGNAL Pos_c            : unsigned(15 DOWNTO 0)
-"
+st "SIGNAL Pos_c            : unsigned(15 DOWNTO 0)"
 )
 )
 *64 (Net
@@ -2393,8 +2370,7 @@ va (VaSet
 isHidden 1
 )
 xt "0,-34000,12200,-33000"
-st "SIGNAL accel            : std_ulogic
-"
+st "SIGNAL accel            : std_ulogic"
 )
 )
 *65 (Net
@@ -2412,8 +2388,7 @@ va (VaSet
 isHidden 1
 )
 xt "0,-34000,12200,-33000"
-st "SIGNAL decel            : std_ulogic
-"
+st "SIGNAL decel            : std_ulogic"
 )
 )
 *66 (Net
@@ -2431,8 +2406,7 @@ va (VaSet
 isHidden 1
 )
 xt "0,-34000,12800,-33000"
-st "SIGNAL full_speed       : std_ulogic
-"
+st "SIGNAL full_speed       : std_ulogic"
 )
 )
 *67 (Net
@@ -2450,8 +2424,7 @@ va (VaSet
 isHidden 1
 )
 xt "0,-34000,12500,-33000"
-st "SIGNAL sens_r           : std_ulogic
-"
+st "SIGNAL sens_r           : std_ulogic"
 )
 )
 *68 (Net
@@ -2469,8 +2442,7 @@ va (VaSet
 isHidden 1
 )
 xt "0,-34000,13100,-33000"
-st "SIGNAL pwm_sig          : std_ulogic
-"
+st "SIGNAL pwm_sig          : std_ulogic"
 )
 )
 *69 (Net
@@ -2488,8 +2460,7 @@ va (VaSet
 isHidden 1
 )
 xt "0,-34000,13800,-33000"
-st "SIGNAL is_emergency     : std_ulogic
-"
+st "SIGNAL is_emergency     : std_ulogic"
 )
 )
 *70 (Net
@@ -2507,8 +2478,7 @@ va (VaSet
 isHidden 1
 )
 xt "0,0,14000,1000"
-st "SIGNAL sensor2_Sync     : std_uLogic
-"
+st "SIGNAL sensor2_Sync     : std_uLogic"
 )
 )
 *71 (Net
@@ -2526,8 +2496,7 @@ va (VaSet
 isHidden 1
 )
 xt "0,0,14000,1000"
-st "SIGNAL sensor1_Sync     : std_uLogic
-"
+st "SIGNAL sensor1_Sync     : std_uLogic"
 )
 )
 *72 (Net
@@ -2545,8 +2514,7 @@ va (VaSet
 isHidden 1
 )
 xt "0,0,13500,1000"
-st "SIGNAL restart_Sync     : std_uLogic
-"
+st "SIGNAL restart_Sync     : std_uLogic"
 )
 )
 *73 (Net
@@ -2564,8 +2532,7 @@ va (VaSet
 isHidden 1
 )
 xt "0,0,13300,1000"
-st "SIGNAL go1_Sync         : std_uLogic
-"
+st "SIGNAL go1_Sync         : std_uLogic"
 )
 )
 *74 (Net
@@ -2583,8 +2550,7 @@ va (VaSet
 isHidden 1
 )
 xt "0,0,13300,1000"
-st "SIGNAL go2_Sync         : std_uLogic
-"
+st "SIGNAL go2_Sync         : std_uLogic"
 )
 )
 *75 (Net
@@ -2602,8 +2568,7 @@ va (VaSet
 isHidden 1
 )
 xt "0,0,13700,1000"
-st "SIGNAL button4_Sync     : std_uLogic
-"
+st "SIGNAL button4_Sync     : std_uLogic"
 )
 )
 *76 (Net
@@ -2621,8 +2586,7 @@ va (VaSet
 isHidden 1
 )
 xt "0,0,14300,1000"
-st "SIGNAL encoderB_Sync    : std_uLogic
-"
+st "SIGNAL encoderB_Sync    : std_uLogic"
 )
 )
 *77 (Net
@@ -2640,8 +2604,7 @@ va (VaSet
 isHidden 1
 )
 xt "0,0,14300,1000"
-st "SIGNAL encoderA_Sync    : std_uLogic
-"
+st "SIGNAL encoderA_Sync    : std_uLogic"
 )
 )
 *78 (Blk
@@ -2722,8 +2685,7 @@ va (VaSet
 isHidden 1
 )
 xt "0,0,14000,1000"
-st "SIGNAL encoderI_Sync    : std_uLogic
-"
+st "SIGNAL encoderI_Sync    : std_uLogic"
 )
 )
 *83 (Net
@@ -2742,8 +2704,7 @@ va (VaSet
 isHidden 1
 )
 xt "0,0,19500,1000"
-st "SIGNAL consigne_vitesse : unsigned(9 DOWNTO 0)
-"
+st "SIGNAL consigne_vitesse : unsigned(9 DOWNTO 0)"
 )
 )
 *84 (SaComponent
@@ -2982,8 +2943,7 @@ va (VaSet
 isHidden 1
 )
 xt "0,0,12300,1000"
-st "SIGNAL start_0          : std_ulogic
-"
+st "SIGNAL start_0          : std_ulogic"
 )
 )
 *93 (SaComponent
@@ -4508,8 +4468,7 @@ va (VaSet
 isHidden 1
 )
 xt "0,0,13700,1000"
-st "SIGNAL Reset_Position   : std_ulogic
-"
+st "SIGNAL Reset_Position   : std_ulogic"
 )
 )
 *143 (Wire
@@ -7265,8 +7224,8 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "-8,-8,1288,768"
-viewArea "29121,-49754,193429,45938"
+windowSize "-8,-8,1928,1168"
+viewArea "76177,-12865,244349,90323"
 cachedDiagramExtent "-17000,-57800,216300,152000"
 pageSetupInfo (PageSetupInfo
 ptrCmd "PR_FOLLOWME,winspool,"
@@ -7294,7 +7253,7 @@ boundaryWidth 0
 )
 hasePageBreakOrigin 1
 pageBreakOrigin "24000,-12000"
-lastUid 15172,0
+lastUid 15351,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0

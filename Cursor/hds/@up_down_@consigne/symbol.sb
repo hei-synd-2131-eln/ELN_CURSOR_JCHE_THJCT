@@ -71,7 +71,7 @@ lang 11
 decl (Decl
 n "accel"
 t "std_ulogic"
-o 16
+o 1
 suid 4,0
 )
 )
@@ -83,7 +83,7 @@ lang 11
 decl (Decl
 n "decel"
 t "std_ulogic"
-o 3
+o 2
 suid 5,0
 )
 )
@@ -96,7 +96,7 @@ m 1
 decl (Decl
 n "up_down1"
 t "std_uLogic"
-o 18
+o 3
 suid 6,0
 )
 )
@@ -407,11 +407,11 @@ value "C:\\eda\\ELN_CURSOR_JCHE_THJCT\\Prefs\\..\\Cursor\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\eda\\ELN_CURSOR_JCHE_THJCT\\Prefs\\..\\Cursor\\hds\\@up_down_@consigne\\interface.info"
+value "C:\\eda\\ELN_CURSOR_JCHE_THJCT\\Prefs\\..\\Cursor\\hds\\@up_down_@consigne\\symbol.sb.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\eda\\ELN_CURSOR_JCHE_THJCT\\Prefs\\..\\Cursor\\hds\\@up_down_@consigne\\interface.user"
+value "C:\\eda\\ELN_CURSOR_JCHE_THJCT\\Prefs\\..\\Cursor\\hds\\@up_down_@consigne\\symbol.sb.user"
 )
 (vvPair
 variable "SourceDir"
@@ -423,7 +423,7 @@ value "HDL Designer"
 )
 (vvPair
 variable "arch_name"
-value "interface"
+value "symbol"
 )
 (vvPair
 variable "concat_file"
@@ -443,19 +443,19 @@ value "C:\\eda\\ELN_CURSOR_JCHE_THJCT\\Prefs\\..\\Cursor\\hds\\Up_down_Consigne"
 )
 (vvPair
 variable "date"
-value "17.12.2021"
+value "20.12.2021"
 )
 (vvPair
 variable "day"
-value "ven."
+value "lun."
 )
 (vvPair
 variable "day_long"
-value "vendredi"
+value "lundi"
 )
 (vvPair
 variable "dd"
-value "17"
+value "20"
 )
 (vvPair
 variable "entity_name"
@@ -467,15 +467,15 @@ value "<TBD>"
 )
 (vvPair
 variable "f"
-value "interface"
+value "symbol.sb"
 )
 (vvPair
 variable "f_logical"
-value "interface"
+value "symbol.sb"
 )
 (vvPair
 variable "f_noext"
-value "interface"
+value "symbol"
 )
 (vvPair
 variable "graphical_source_author"
@@ -483,7 +483,7 @@ value "Julie"
 )
 (vvPair
 variable "graphical_source_date"
-value "17.12.2021"
+value "20.12.2021"
 )
 (vvPair
 variable "graphical_source_group"
@@ -495,7 +495,7 @@ value "LAPTOP-J400VU4F"
 )
 (vvPair
 variable "graphical_source_time"
-value "08:45:02"
+value "16:48:38"
 )
 (vvPair
 variable "group"
@@ -535,11 +535,11 @@ value "décembre"
 )
 (vvPair
 variable "p"
-value "C:\\eda\\ELN_CURSOR_JCHE_THJCT\\Prefs\\..\\Cursor\\hds\\@up_down_@consigne\\interface"
+value "C:\\eda\\ELN_CURSOR_JCHE_THJCT\\Prefs\\..\\Cursor\\hds\\@up_down_@consigne\\symbol.sb"
 )
 (vvPair
 variable "p_logical"
-value "C:\\eda\\ELN_CURSOR_JCHE_THJCT\\Prefs\\..\\Cursor\\hds\\Up_down_Consigne\\interface"
+value "C:\\eda\\ELN_CURSOR_JCHE_THJCT\\Prefs\\..\\Cursor\\hds\\Up_down_Consigne\\symbol.sb"
 )
 (vvPair
 variable "package_name"
@@ -554,20 +554,48 @@ variable "series"
 value "HDL Designer Series"
 )
 (vvPair
-variable "this_ext"
+variable "task_DesignCompilerPath"
 value "<TBD>"
 )
 (vvPair
+variable "task_LeonardoPath"
+value "<TBD>"
+)
+(vvPair
+variable "task_ModelSimPath"
+value "<TBD>"
+)
+(vvPair
+variable "task_NC-SimPath"
+value "<TBD>"
+)
+(vvPair
+variable "task_PrecisionRTLPath"
+value "<TBD>"
+)
+(vvPair
+variable "task_QuestaSimPath"
+value "<TBD>"
+)
+(vvPair
+variable "task_VCSPath"
+value "<TBD>"
+)
+(vvPair
+variable "this_ext"
+value "sb"
+)
+(vvPair
 variable "this_file"
-value "interface"
+value "symbol"
 )
 (vvPair
 variable "this_file_logical"
-value "interface"
+value "symbol"
 )
 (vvPair
 variable "time"
-value "08:45:02"
+value "16:48:38"
 )
 (vvPair
 variable "unit"
@@ -583,7 +611,7 @@ value "2019.2 (Build 5)"
 )
 (vvPair
 variable "view"
-value "interface"
+value "symbol"
 )
 (vvPair
 variable "year"
@@ -642,7 +670,7 @@ lang 11
 decl (Decl
 n "accel"
 t "std_ulogic"
-o 16
+o 1
 suid 4,0
 )
 )
@@ -688,7 +716,7 @@ lang 11
 decl (Decl
 n "decel"
 t "std_ulogic"
-o 3
+o 2
 suid 5,0
 )
 )
@@ -736,7 +764,7 @@ m 1
 decl (Decl
 n "up_down1"
 t "std_uLogic"
-o 18
+o 3
 suid 6,0
 )
 )
@@ -824,7 +852,6 @@ uid 20,0
 va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
-font "Arial,8,0"
 )
 xt "36200,48000,45400,49000"
 st "
@@ -856,7 +883,6 @@ uid 23,0
 va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
-font "Arial,8,0"
 )
 xt "53200,44000,56200,45000"
 st "
@@ -888,7 +914,6 @@ uid 26,0
 va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
-font "Arial,8,0"
 )
 xt "36200,46000,46200,47000"
 st "
@@ -920,7 +945,6 @@ uid 29,0
 va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
-font "Arial,8,0"
 )
 xt "32200,46000,34300,47000"
 st "
@@ -952,7 +976,6 @@ uid 32,0
 va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
-font "Arial,8,0"
 )
 xt "53200,45200,62600,46200"
 st "
@@ -983,7 +1006,6 @@ uid 35,0
 va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
-font "Arial,8,0"
 )
 xt "57200,44000,58800,45000"
 st "
@@ -1015,7 +1037,7 @@ uid 38,0
 va (VaSet
 fg "32768,0,0"
 )
-xt "37350,44400,47650,45600"
+xt "39000,44500,46000,45500"
 st "
 <company name>
 "
@@ -1046,7 +1068,6 @@ uid 41,0
 va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
-font "Arial,8,0"
 )
 xt "32200,47000,34300,48000"
 st "
@@ -1078,7 +1099,6 @@ uid 44,0
 va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
-font "Arial,8,0"
 )
 xt "32200,48000,34900,49000"
 st "
@@ -1110,9 +1130,8 @@ uid 47,0
 va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
-font "Arial,8,0"
 )
-xt "36200,47000,49900,48000"
+xt "36200,47000,49500,48000"
 st "
 %library/%unit/%view
 "
@@ -1167,7 +1186,7 @@ blo "0,1000"
 uid 50,0
 va (VaSet
 )
-xt "0,1200,17500,7200"
+xt "0,1200,11200,6200"
 st "LIBRARY ieee;
   USE ieee.std_logic_1164.all;
   USE ieee.numeric_std.all;
@@ -1195,7 +1214,7 @@ text (MLText
 va (VaSet
 fg "0,0,32768"
 )
-xt "200,200,3200,1400"
+xt "200,200,2100,1200"
 st "
 Text
 "
@@ -1450,6 +1469,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 218,0
+lastUid 241,0
 activeModelName "Symbol:CDM"
 )

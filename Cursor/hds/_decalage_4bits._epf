@@ -1,2 +1,2 @@
 DEFAULT_ARCHITECTURE atom struct
-DEFAULT_FILE atom decalage_4bits/struct.bd
+DEFAULT_FILE atom @decalage_4bits/struct.bd
