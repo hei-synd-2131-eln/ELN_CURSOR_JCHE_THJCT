@@ -67,7 +67,7 @@ m 1
 decl (Decl
 n "is_emergency"
 t "std_ulogic"
-o 31
+o 2
 suid 10,0
 )
 )
@@ -79,7 +79,7 @@ lang 11
 decl (Decl
 n "sensor2_Sync"
 t "std_uLogic"
-o 32
+o 1
 suid 11,0
 )
 )
@@ -137,13 +137,13 @@ uid 99,0
 )
 *21 (MRCItem
 litem &14
-pos 0
+pos 1
 dimension 20
 uid 274,0
 )
 *22 (MRCItem
 litem &15
-pos 1
+pos 0
 dimension 20
 uid 276,0
 )
@@ -384,11 +384,11 @@ value "C:\\eda\\ELN_CURSOR_JCHE_THJCT\\Prefs\\..\\Cursor\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\eda\\ELN_CURSOR_JCHE_THJCT\\Prefs\\..\\Cursor\\hds\\@safety\\interface.info"
+value "C:\\eda\\ELN_CURSOR_JCHE_THJCT\\Prefs\\..\\Cursor\\hds\\@safety\\symbol.sb.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\eda\\ELN_CURSOR_JCHE_THJCT\\Prefs\\..\\Cursor\\hds\\@safety\\interface.user"
+value "C:\\eda\\ELN_CURSOR_JCHE_THJCT\\Prefs\\..\\Cursor\\hds\\@safety\\symbol.sb.user"
 )
 (vvPair
 variable "SourceDir"
@@ -400,7 +400,7 @@ value "HDL Designer"
 )
 (vvPair
 variable "arch_name"
-value "interface"
+value "symbol"
 )
 (vvPair
 variable "concat_file"
@@ -420,19 +420,19 @@ value "C:\\eda\\ELN_CURSOR_JCHE_THJCT\\Prefs\\..\\Cursor\\hds\\Safety"
 )
 (vvPair
 variable "date"
-value "20.12.2021"
+value "21.12.2021"
 )
 (vvPair
 variable "day"
-value "lun."
+value "mar."
 )
 (vvPair
 variable "day_long"
-value "lundi"
+value "mardi"
 )
 (vvPair
 variable "dd"
-value "20"
+value "21"
 )
 (vvPair
 variable "entity_name"
@@ -444,15 +444,15 @@ value "<TBD>"
 )
 (vvPair
 variable "f"
-value "interface"
+value "symbol.sb"
 )
 (vvPair
 variable "f_logical"
-value "interface"
+value "symbol.sb"
 )
 (vvPair
 variable "f_noext"
-value "interface"
+value "symbol"
 )
 (vvPair
 variable "graphical_source_author"
@@ -460,7 +460,7 @@ value "Julie"
 )
 (vvPair
 variable "graphical_source_date"
-value "20.12.2021"
+value "21.12.2021"
 )
 (vvPair
 variable "graphical_source_group"
@@ -472,7 +472,7 @@ value "LAPTOP-J400VU4F"
 )
 (vvPair
 variable "graphical_source_time"
-value "21:46:16"
+value "12:07:43"
 )
 (vvPair
 variable "group"
@@ -512,11 +512,11 @@ value "décembre"
 )
 (vvPair
 variable "p"
-value "C:\\eda\\ELN_CURSOR_JCHE_THJCT\\Prefs\\..\\Cursor\\hds\\@safety\\interface"
+value "C:\\eda\\ELN_CURSOR_JCHE_THJCT\\Prefs\\..\\Cursor\\hds\\@safety\\symbol.sb"
 )
 (vvPair
 variable "p_logical"
-value "C:\\eda\\ELN_CURSOR_JCHE_THJCT\\Prefs\\..\\Cursor\\hds\\Safety\\interface"
+value "C:\\eda\\ELN_CURSOR_JCHE_THJCT\\Prefs\\..\\Cursor\\hds\\Safety\\symbol.sb"
 )
 (vvPair
 variable "package_name"
@@ -560,19 +560,19 @@ value "<TBD>"
 )
 (vvPair
 variable "this_ext"
-value "<TBD>"
+value "sb"
 )
 (vvPair
 variable "this_file"
-value "interface"
+value "symbol"
 )
 (vvPair
 variable "this_file_logical"
-value "interface"
+value "symbol"
 )
 (vvPair
 variable "time"
-value "21:46:16"
+value "12:07:43"
 )
 (vvPair
 variable "unit"
@@ -588,7 +588,7 @@ value "2019.2 (Build 5)"
 )
 (vvPair
 variable "view"
-value "interface"
+value "symbol"
 )
 (vvPair
 variable "year"
@@ -648,7 +648,7 @@ m 1
 decl (Decl
 n "is_emergency"
 t "std_ulogic"
-o 31
+o 2
 suid 10,0
 )
 )
@@ -693,7 +693,7 @@ lang 11
 decl (Decl
 n "sensor2_Sync"
 t "std_uLogic"
-o 32
+o 1
 suid 11,0
 )
 )
@@ -1060,7 +1060,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "36200,47000,45200,48000"
+xt "36200,47000,44800,48000"
 st "
 %library/%unit/%view
 "
@@ -1396,6 +1396,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 276,0
+lastUid 299,0
 activeModelName "Symbol:CDM"
 )

@@ -89,19 +89,19 @@ value "C:\\eda\\ELN_CURSOR_JCHE_THJCT\\Prefs\\..\\Cursor\\hds\\Safety"
 )
 (vvPair
 variable "date"
-value "20.12.2021"
+value "21.12.2021"
 )
 (vvPair
 variable "day"
-value "lun."
+value "mar."
 )
 (vvPair
 variable "day_long"
-value "lundi"
+value "mardi"
 )
 (vvPair
 variable "dd"
-value "20"
+value "21"
 )
 (vvPair
 variable "entity_name"
@@ -129,7 +129,7 @@ value "Julie"
 )
 (vvPair
 variable "graphical_source_date"
-value "20.12.2021"
+value "21.12.2021"
 )
 (vvPair
 variable "graphical_source_group"
@@ -141,7 +141,7 @@ value "LAPTOP-J400VU4F"
 )
 (vvPair
 variable "graphical_source_time"
-value "21:45:42"
+value "12:07:43"
 )
 (vvPair
 variable "group"
@@ -241,7 +241,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "21:45:42"
+value "12:07:43"
 )
 (vvPair
 variable "unit"
@@ -779,6 +779,7 @@ uid 209,0
 ro 90
 va (VaSet
 vasetType 1
+isHidden 1
 fg "0,65535,0"
 )
 xt "35000,12625,35750,13375"
@@ -879,8 +880,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "30000,18600,44100,19600"
-st "delay = gateDelay    ( time )  
-"
+st "delay = gateDelay    ( time )  "
 )
 header ""
 )
@@ -929,8 +929,9 @@ pts [
 ]
 )
 start &1
+end &18
 sat 32
-eat 16
+eat 32
 stc 0
 st 0
 sf 1
@@ -1104,12 +1105,12 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "384,240,1401,930"
-viewArea "-11600,0,71453,56421"
+windowSize "384,240,1402,930"
+viewArea "12637,5043,46699,28153"
 cachedDiagramExtent "-8600,0,67600,49000"
 hasePageBreakOrigin 1
 pageBreakOrigin "-12000,0"
-lastUid 223,0
+lastUid 248,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
